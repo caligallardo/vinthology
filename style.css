@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	background-color: gray
+}
+
+header {
+	width: 100%;
+	background-color: #FEFDFE;
+	position: fixed;
+}
+
+.logo {
+	height: 80px;
+}
+
+.nav-bar {
+	float: right;
+	list-style-type: none;
+	padding: 0 16px 0 0;
+}
+
+.nav-bar li {
+	float: left;
+}
+
+.nav-bar li a {
+	display: block;
+	font-family: Arial;
+	font-size: 20px;
+	text-decoration: none;
+	color: 	#710400;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	padding: 12px;
+}
+
+.nav-bar li a:hover {
+	font-weight: bold;
+}
+
