@@ -2,37 +2,44 @@
 <html>
 <head>
 	<title>Vinthology</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-	<script src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="scripts/flickity.pkgd.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/flickity.css" media="screen">
 </head>
 <body>
-	<header>
-		<a href="http://vinthology.com" class="logo-link">
-			<img class="logo" src="images/logo.png">
-		</a>
-		<ul class="nav-bar">
-			<li>
-				<a href="">Portfolio</a>
-			</li>
-			<li>
-				<a href="">About</a>
-			</li>
-			<li>
-				<a href="">Contact</a>
-			</li>
-		</ul>
-	</header>
-
-
-	<div class="slideshow-container">
-		<div class="mainSlides">
-			<div class="numbertext">1 / 3</div>
-			<img src="images/wine2.jpg" style="width: 100%">
-			<div class="text">Caption Text</div>
+		<header>
+			<a href="http://vinthology.com" class="logo-link">
+				<img class="logo" src="images/logo.png">
+			</a>
+			<ul class="nav-bar">
+				<li>
+					<a href="">Portfolio</a>
+				</li>
+				<li>
+					<a href="">About</a>
+				</li>
+				<li>
+					<a href="">Contact</a>
+				</li>
+			</ul>
+		</header>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var $carousel = $('.main-carousel').flickity({
+					cellAlign: 'left',
+					contain: true,
+					autoPlay: true,
+					pauseAutoPlayOnHover:false,
+					wrapAround:true
+				});
+			});
+		</script>
+		<div class="main-carousel">
+		    <div class="carousel-cell"><img class="carousel-image" src="images/wine2.jpg"></div>
+		    <div class="carousel-cell"><img class="carousel-image" src="images/bottlesonrack.jpeg"></div>
 		</div>
-
-	</div>
 
 </body>
 </html>

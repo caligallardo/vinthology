@@ -47,10 +47,16 @@ header {
 	font-weight: bold;
 }
 
-.slideshow-container {
+.main-carousel{
 	padding-top: 80px;
+	max-height: 40%;
 	width: 100%;
-	display: block;
-	height: 600px;
+	overflow:hidden;
 }
+.carousel-cell{
 
+}
+.carousel-image{
+	min-width: 100%;
+	min-height: 100%;
+}
