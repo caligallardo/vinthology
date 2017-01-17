@@ -1,0 +1,48 @@
+.banner {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.banner-image{
+	position: relative;
+	display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	right: 0;
+	left: 0;
+    text-align: center;
+    vertical-align:middle;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.image-wrapper {
+	filter: brightness(70%);
+}
+
+
+/*
+.banner {
+	position: relative;
+}
+
+.banner-image {
+	width: 100% ;
+	z-index: 997;
+	position: absolute;
+	filter: brightness(70%);
+}
+
+.banner-title {
+	z-index: 998;
+	position: absolute;
+	color: #FFFFFF;
+	text-align: center;
+}*/

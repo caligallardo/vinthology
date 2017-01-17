@@ -1,6 +1,7 @@
 body {
 	margin: 0;
-	background-color: gray
+	background-color: #FEFDFE;
+	font-family: Times;
 }
 /*
 .site-container {
@@ -16,6 +17,7 @@ header {
 	position: fixed;
 	float: left;
 	height: 80px;
+	z-index: 999;
 }
 
 .logo {
@@ -35,28 +37,72 @@ header {
 .nav-bar li a {
 	display: block;
 	font-family: Arial;
-	font-size: 20px;
+	font-weight: bold;
+	font-size: 16px;
 	text-decoration: none;
 	color: 	#710400;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 12px;
+	padding: 12px
 }
 
 .nav-bar li a:hover {
-	font-weight: bold;
+	color: #b30000;
 }
 
-.main-carousel{
-	padding-top: 80px;
-	max-height: 40%;
-	width: 100%;
-	overflow:hidden;
-}
-.carousel-cell{
+.heading {
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	color: #710400;
 
 }
-.carousel-image{
-	min-width: 100%;
-	min-height: 100%;
+
+.container {
 }
+
+#values-heading {
+	height: 70px;
+	padding: 20px;
+}
+
+.heading:before {
+	margin: auto 20px 5px auto;
+	display: inline-block;
+	width: 80px;
+	height: 2px;
+	background-color: gray;
+	content: "";
+	padding: 0;
+}
+
+.heading:after {
+	margin: auto auto 5px 20px;
+	display: inline-block;
+	width: 80px;
+	height: 2px;
+	background-color: gray;
+	padding-left: 20px;
+	content: "";
+	padding: 0;
+}
+
+.page-container {
+}
+
+.page-container:before {
+	height: 80px;
+	content: "";
+	display: block;
+}
+
+
+.entry-content {
+	margin-top: 20px:
+	padding: 10px;
+	border: solid gray 2px; 
+}
+
+
+
