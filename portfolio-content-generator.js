@@ -1,3 +1,9 @@
+var para = document.createElement("p");
+var node = document.createTextNode("This is new.");
+para.appendChild(node);
+var element = document.getElementById("div1");
+element.appendChild(para);
+
 document.write("<div class='entry-content'>");
 $.getJSON( "portfolio-data.json", function(result){
 	$.each(result, function(index, wine){
@@ -11,6 +17,20 @@ $.getJSON( "portfolio-data.json", function(result){
 document.write("</div>");
 
 
+			$.getJSON( "portfolio-data.json", function(result){
+				$.each(result, function(index, wine){
+					var entry = document.createElement("div");
+					entry.className = "entry" + index.toString();
+					$.each(wine, function(key, value){
+						var property = document.createElement("div");
+						property.className(key);
+						var text = document.createTextNode(value)
+						entry.append()
+						document.write("<div class='" + key + "'>" + value + "</div>");
+					})
+					document.write("</div>");
+				})
+			});
 
 /*
 

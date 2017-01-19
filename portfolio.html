@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html>
 <head>
 	<meta charset="UTF-8">
 	<title>Vinthology</title>
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<link rel="stylesheet" type="text/css" href="styles/slideshow.css">
 	<link rel="stylesheet" type="text/css" href="styles/bannerStyle.css">
+	<link rel="stylesheet" type="text/css" href="styles/portfolioStyle.css">
 </head>
 <body>
 	<header>
-		<a href="http://vinthology.com" class="logo-link">
+		<a href="index.html" class="logo-link">
 			<img class="logo" src="images/logo.png" alt="logo">
 		</a>
 		<ul class="nav-bar">
@@ -19,15 +18,14 @@
 				<a href="">Portfolio</a>
 			</li>
 			<li>
-				<a href="">About</a>
+				<a href="aboutus.html">About</a>
 			</li>
 			<li>
-				<a href="">Contact</a>
+				<a href="contact.html">Contact</a>
 			</li>
 		</ul>
 	</header>
-
-	<div class="page-container">
+	<div class="page-container"></div>
 		<div class="banner">
 			<div class="banner-image">
 				<div class="image-wrapper">
@@ -36,7 +34,67 @@
 			<div class="banner-text">Portfolio</div>
 			</div>
 		</div>
-		<div class="entry-content" itemprop="text">
+		<script type="text/javascript">
+		// get data from json file and create divs
+			$.getJSON( "", function(result){
+				$.each(result, function(index, wine){
+					// create div for each wine entry. class=entry[index]
+					var entry = document.createElement("div");
+					$.each(wine, function(key, value){
+						// create a div for each property. make value its contents & append it to entry
+						var property = document.createElement("div");
+						property.className = key;
+						var text = document.createTextNode(value);
+						property.appendChild(text);
+						entry.appendChild(property);
+					})
+					var element = document.getElementById("entry-content");
+					element.appendChild(entry);
+				})
+			});
+		</script>
+		<div class="portfolio-page-container">
+		<div class="title">
+			Search Our Wines &amp; Beers
+		</div>
+		<div class="page-break"></div>
+		<div class="content">
+			<div id="search-sidebar">
+				Sidebar will go here
+			</div>
+			<div class="results">
+				<div class="entry">
+					<div class="logo-space">
+						<img class = "site-logo" src="https://32windswine.com/wp-content/uploads/2015/05/logo_381x140.png">
+						<div class="sitelink">
+							<p class="sitelink">Website: </p><a href="" class="winery-website">website url</a>
+						</div>
+					</div>
+					<div class="description-space">
+						<h1 class="winery-name">Heading</h1>
+						<h2 class="regional-info">Subheading</h2>
+						<p class="description">Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description</p>
+					</div>
+					</div>
+					<div class="entry">
+					<div class="logo-space">
+						<img class = "site-logo" src="https://32windswine.com/wp-content/uploads/2015/05/logo_381x140.png">
+						<div class="sitelink">
+							<p class="sitelink">Website: </p><a href="" class="winery-website">website url</a>
+						</div>
+					</div>
+					<div class="description-space">
+						<h1 class="winery-name">Heading</h1>
+						<h2 class="regional-info">Subheading</h2>
+						<p class="description">Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description</p>
+					</div>
+			</div>
+			</div>
+
+		</div>
+
+
+			<!--
 			<div class="name">
 				<h2>Name</h2>
 			</div>
@@ -48,10 +106,9 @@
 			<p><strong>Website:</strong> <a href="http://www.blendsinc.com/">www.blendsinc.com</a></p>
 			<p><strong>Region:</strong> Mendoza</p>
 			<p><strong>Country:</strong> Argentina</p>
-			<div class="one-fourth"><img width="110" height="124" src="http://phenixwinedistributors.com/wp-content/uploads/2016/06/Arido_Logo.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""></div></div
-		<div>
-			List of stuff
+			<div class="one-fourth"><img width="110" height="124" src="http://phenixwinedistributors.com/wp-content/uploads/2016/06/Arido_Logo.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""></div></div -->
 		</div>
 	</div>	
+	</div>
 </body>
 </html>

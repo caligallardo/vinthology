@@ -1,0 +1,94 @@
+body {
+	font-family: Arial;
+}
+
+p {
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 18px;
+	color: #333333;
+}
+
+h2 {
+	font-size: 16px;
+	color: #333333;
+}
+
+.portfolio-page-container {
+	margin: 0 6%;
+}
+
+.title {
+	margin: 30px 0px 30px 0px;
+	font-size: 24px;
+	font: Arial;
+}
+
+.page-break {
+	border: solid gray 1px;
+}
+
+#search-sidebar {
+	width: 250px;
+	height: 500px;
+	float: left;
+	border: solid red 1px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.results {
+	float: right;
+	display: inline-block;
+	width: 70%;
+	padding-left: 15px;
+	margin-right: 
+}
+
+.entry {
+	display: block;
+	height: 205px;
+	border-bottom: solid gray 1px;
+	padding: 20px;
+}
+
+.logo-space {
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+}
+
+.description-space {
+	width: 70%;
+	float: right;
+	height: 100%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.description {
+	font-style: italic;
+}
+
+p .sitelink {
+	font-style: normal;
+}
+
+div .sitelink {
+	margin-top: 30px;
+}
+
+.site-logo {
+	width: 100%;
+}
+
+.winery-website {
+	text-decoration: none;
+	color: #333333;
+}
+
+.winery-website:hover {
+	color: #710400;
+}

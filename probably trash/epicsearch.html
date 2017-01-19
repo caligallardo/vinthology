@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>search</title>
+    <link rel="stylesheet" type="text/css" href="styles/searchStyle.css">
+</head>
+<body>
+<div class="container">
+    
+         <div class="row"><!-- Title Row -->
+                  
+                    <div class="col-md-12">
+                            <h1><span id="MainContent_lblSection1Title">Epic Wines &amp; Spirits Portfolio</span></h1>
+                            <hr>
+                    </div>
+            
+                    
+        </div><!-- End Title Row -->
+       
+        <div class="row"><!-- Main Row-->
+                 <div class="sidebar"><!--start of sidebar -->
+                 <div class="sidebar-box">                                   
+                           
+      
+                            <h4>Filter By Country</h4>
+                                    <select name="ctl00$MainContent$ddlCountry" onchange="javascript:setTimeout('__doPostBack(\'ctl00$MainContent$ddlCountry\',\'\')', 0)" id="MainContent_ddlCountry" style="height:25px;width:200px;">
+    <option selected="selected" value="%">All</option>
+    <option value="Argentina">Argentina</option>
+    <option value="France">France</option>
+    <option value="Germany">Germany</option>
+    <option value="Italy">Italy</option>
+    <option value="New Zealand">New Zealand</option>
+    <option value="Portugal">Portugal</option>
+    <option value="Spain">Spain</option>
+    <option value="United States">United States</option>
+
+</select>
+
+                            <h4>Filter By Type</h4>
+                                 <select name="ctl00$MainContent$ddlProducerType" onchange="javascript:setTimeout('__doPostBack(\'ctl00$MainContent$ddlProducerType\',\'\')', 0)" id="MainContent_ddlProducerType" style="height:25px;width:200px;">
+    <option selected="selected" value="All">All</option>
+    <option value="Beer">Beer</option>
+    <option value="Wine">Wine</option>
+
+</select>
+                        
+                    <hr>
+                            <h4>Search by Brand Name</h4>
+                                 <div class="widget-search">
+                          
+                                        <input name="ctl00$MainContent$txtSearch" type="text" id="MainContent_txtSearch" class="form-control" placeholder="enter search term...">
+                                          <input type="submit" name="ctl00$MainContent$btnSearch" value="Search" id="MainContent_btnSearch" class="btn theme-btn-color ">
+                           
+                                </div>
+                </div><!--sidebar-box--><hr>
+                   
+                 </div><!--sideabr end -->
+                
+    <div class="result-container">
+
+    <hgroup class="mb20">
+        <h1>Search Results</h1>
+        <h2 class="lead"><strong class="text-danger">3</strong> results were found for the search for <strong class="text-danger">Lorem</strong></h2>                               
+    </hgroup>
+
+    <section class="col-xs-12 col-sm-6 col-md-12">
+        <article class="search-result row">
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <a href="#" title="Lorem ipsum" class="thumbnail"><img src="http://lorempixel.com/250/140/people" alt="Lorem ipsum" /></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7 excerpet">
+                <h3><a href="#" title="">Voluptatem, exercitationem, suscipit, distinctio</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, exercitationem, suscipit, distinctio, qui sapiente aspernatur molestiae non corporis magni sit sequi iusto debitis delectus doloremque.</p>                        
+                <span class="plus"><a href="#" title="Lorem ipsum"><i class="glyphicon glyphicon-plus"></i></a></span>
+            </div>
+            <span class="clearfix borda"></span>
+        </article>
+
+        <article class="search-result row">
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <a href="#" title="Lorem ipsum" class="thumbnail"><img src="http://lorempixel.com/250/140/food" alt="Lorem ipsum" /></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7">
+                <h3><a href="#" title="">Voluptatem, exercitationem, suscipit, distinctio</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, exercitationem, suscipit, distinctio, qui sapiente aspernatur molestiae non corporis magni sit sequi iusto debitis delectus doloremque.</p>                        
+                <span class="plus"><a href="#" title="Lorem ipsum"><i class="glyphicon glyphicon-plus"></i></a></span>
+            </div>
+            <span class="clearfix borda"></span>
+        </article>
+
+        <article class="search-result row">
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <a href="#" title="Lorem ipsum" class="thumbnail"><img src="http://lorempixel.com/250/140/sports" alt="Lorem ipsum" /></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7">
+                <h3><a href="#" title="">Voluptatem, exercitationem, suscipit, distinctio</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, exercitationem, suscipit, distinctio, qui sapiente aspernatur molestiae non corporis magni sit sequi iusto debitis delectus doloremque.</p>                        
+                <span class="plus"><a href="#" title="Lorem ipsum"><i class="glyphicon glyphicon-plus"></i></a></span>
+            </div>
+            <span class="clearfix border"></span>
+        </article>          
+
+    </section>
+</div>
+            </div>
+
+        </div>
+</body>
+</html>

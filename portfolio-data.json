@@ -1,23 +1,371 @@
-[{"name":"Alienor", "description":"Winemaker Denis Malbec, formerly the winemaker and cellarmaster at Chateau Latour, believes the terroir
-in some of the vineyards near Clear Lake more closely resembles that of the Medoc region in Bordeaux
-than does any other California wine region.
-Grapes for the Aliénor wines are from Kelseyville. The Merlot is clone 181 from Rooster Vineyard planted in
-1993 on well drained clay loam. The Cabernet Franc is clone 312 and a “suitcase selection” from Bordeaux,
-planted in 1999 on gravelly loam along the bench of Kelsey creek. The Petit Verdot from Quercus Ranch
-was planted in 2002. The soil in this vineyard consists mostly of loam with some gravel interspersed. The
-Cabernet Sauvignon is from the Bartlett Vineyard and the Syrah grapes are from the Castelero Vineyard.
-These are neighboring vineyards with just the old riverbed of Kelsey creek in between them. The
-Sauvignon Blanc is clone 1 from the certified organic Windrem Vineyard, planted in 1998. The soils
-throughout are an eclectic mix of gravel, sand and silt washed down from the surrounding hills and
-mountains that comprise the northern portion of the Mayacamas Range. At an altitude of approximately
-1,360 feet, these vineyards lie about 2 miles south of Clear Lake and about 1 mile west of Mt. Konocti, a
-dormant volcano that towers above the entire region.", "location":"Lake County", "region":"California"},
-{"name":"Aviary", "description":"Founded by Gregory Ahn, Matt Scarlett, and Jonathan White, Aviary Vineyards is an expression of Napa
-Valley and the quality that has made wines from this region so sought after. Much like an aviary, the blend
-of different grape varieties, terroirs, and vineyards interact and harmonize in each blend to create wines
-that are beautiful, enjoyable, and captivating. Each component of these wines is wonderful, but together
-they combine into a truly great experience.
-The Aviary Chardonnay is fresh, rich, and balanced. Inviting aromas of pear, banana, vanilla, subtle spice,
-and toasted oak draw you in. On the palate, we find lively flavors of apricot, Golden Delicious apple, pear,
-banana, and star of jasmine. The wine is aged 5 months in barrel. The Red Blend is barrel aged for six
-months.", "location":"Napa Valley", "region":"California"}]
+[{
+	"name": "32 Winds",
+	"description": "32 Winds is a small family owned winery nestled alongside the Dry Creek stream, a spawning preservefor Coho salmon and Steelhead trout. The winery makes award winning Pinot Noir, Chardonnay and Zinfandel from selected vineyards in Sonoma County. Winery owner Ed Mascarin has roots in California’s wine history. His father, Antonio, while working the family vineyards also worked as cellar master at Roma Wine Company under industry pioneer Louis Martini. Today, Ed oversees the operations at 32 Winds alongside winemaker Ehren Jordan. \n The 32 Winds wines come from top vineyards in Sonoma County. The Maestro Pinot Noir contains fruit from the Sonoma Stage vineyard at the southern tip of the Sonoma Coast appellation between Petaluma and Carneros. This is a windswept site with cool maritime influences and very low yields of intensely flavored fruit, farmed organically. The Hudson Vineyard in Carneros has produced some of California’s top Chardonnays. The Lucky Well Vineyard was planted by respected vineyard manager Ulises Valdez, and lies above the fog line in the rolling hills north of Occidental a few miles inland from the Pacific Ocean. Its tightly spaced vines are dry-farmed organically.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Aether",
+	"description": "Great wine is part biochemistry and part neurochemistry. There can be subliminal, subconscious responses to wine that remove it from the realm of a beverage and elevate it to something with the capacity to deliver a transcendent experience. That’s what the Greeks meant by aether: a layer of mystery between the Earthly realm and the heavens. It is the overlap of science and art and the vibe in good company that makes the food taste better. \n Owner and winemaker Jeff Fink made wines at Tantara and Pence Ranch. His love for and understanding of Santa Barbara County vineyards is fully evident in these new wines from Aether.",
+	"region ": "California ",
+	"country":"United States"
+}, {
+	"name": "Alias",
+	"description": "Alias wines are made by Alcohol by Volume, a young & hungry wine company \"based in a secret wine cave in northern California\". Their mission is to make really good wines at really good prices. They all had \"real jobs\" at big wineries when they first decided to start Alias. It was kind of a secret side project, so Alias was an appropriate name. Identities and sources were kept as much of a secret as possible. \n Once they started introducing people to the wines, it became apparent they were onto something. In the first year, they were out of stock four times. It wasn’t long before they left their day jobs to focus on Alias and Alcohol by Volume full-time. As they say, \"we’re probably never going to get rich doing this, but we love what we do.\"",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Aliénor",
+	"description": "Winemaker Denis Malbec, formerly the winemaker and cellarmaster at Chateau Latour, believed the terroir in some of the vineyards near Clear Lake more closely resembles that of the Medoc region in Bordeaux than does any other California wine region. \n Grapes for the Aliénor wines are from Kelseyville. The Merlot is clone 181 from Rooster Vineyard planted in 1993 on well drained clay loam. The Cabernet Franc is clone 312 and a “suitcase selection” from Bordeaux, planted in 1999 on gravelly loam along the bench of Kelsey creek. The Petit Verdot from Quercus Ranch was planted in 2002. The soil in this vineyard consists mostly of loam with some gravel interspersed. The Cabernet Sauvignon is from the Bartlett Vineyard and the Syrah grapes are from the Castelero Vineyard. These are neighboring vineyards with just the old riverbed of Kelsey creek in between them. The Sauvignon Blanc is clone 1 from the certified organic Windrem Vineyard, planted in 1998. The soils throughout are an eclectic mix of gravel, sand and silt washed down from the surrounding hills and mountains that comprise the northern portion of the Mayacamas Range. At an altitude of approximately 1,360 feet, these vineyards lie about 2 miles south of Clear Lake and about 1 mile west of Mt. Konocti, a dormant volcano that towers above the entire region.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Aviary",
+	"description": "Founded by Gregory Ahn, Matt Scarlett, and Jonathan White, Aviary Vineyards is an expression of Napa Valley and the quality that has made wines from this region so sought after. Much like an aviary, the blend of different grape varieties, terroirs, and vineyards interact and harmonize in each blend to create wines that are beautiful, enjoyable, and captivating. Each component of these wines is wonderful, but together they combine into a truly great experience. \n Aviary Chardonnay is fresh, rich, and balanced. Inviting aromas of pear, banana, vanilla, subtle spice, and toasted oak draw you in. On the palate, we find lively flavors of apricot, Golden Delicious apple, pear, banana, and star of jasmine. The wine is aged 5 months in barrel. The Red Blend is barrel aged for six months.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Buccella",
+	"description": "Buccella (pronounced \"boo-kehl-lah\") is the Latin term for \"mouthful,\" meant to signify the big, bold concentration of layers. The proprietary handmade wax label is an interpretation of a sommelier’s tastevin, designed to hold the perfect mouthful. \n Since its founding in 2002, Buccella has remained unwaveringly committed to producing limited quantities of handmade, luxury wines produced from small vineyards in Napa Valley, primarily in Yountville, Oakville and Coombsville.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Cederquist",
+	"description": "Cederquist Wine Company was founded by long-time winemaker Dan Cederquist. Dan began his career at Stag’s Leap Wine Cellars and next became head winemaker at DeLoach Vineyards in Santa Rosa, where he crafted many exceptional wines over twelve years. In 2005 Dan started his own wine brand, producing the first vintage of Starfish Pinot Noir. He is focused on making high quality wines from the finest appellations in Northern California: Russian River, Rockpile, and Knights Valley.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Cenay",
+	"description": "Gerry Rowland launched the Cenay label in 1997, and today it showcases excellent varietal wines, each a perfect marriage of site and grape variety. This is truly a family-run business, as the entire staff consists of just Gerry and his wife, Linda. Producing wine in Napa Valley, the Rowlands truly stand out against the backdrop of luxury wineries owned or backed by tech entrepreneurs, or sports and Hollywood celebrities. The Cenay wines are made with care, from well chosen vineyards, by people who love good wine. \n The Bald Mountain Chardonnay is from a vineyard at 1000 feet elevation just three miles from the Ocean in the Santa Cruz Mountains AVA. Rodgers Vineyard is in the Oak Knoll AVA and this Pinot Noir goes through an extended maceration before a whole berry fermentation. The wine was aged in 100% French oak barrels, 60% of which were new. The Cabernet Sauvignon comes from the Blue Tooth vineyard on the edge of the Oak Knoll AVA, directly across from Darioush. The wine was fermented with 100% wild yeast, which adds to the depth of character, and aged in 100% French oak, 70% new.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Cyrus Creek",
+	"description": "the highest quality utilizing exclusively the Clone 4 variety of this grape. The winery is owned by the Bianco family who has been making wine for over 30 years, although the first vintage of Cyrus Creek was 2006. The vineyards comprise just 2 acres, which has been farmed by the well renowned viticulturist, Mario Bazan, from the beginning, in perfect tandem with Massimo Monticelli making this wine. \n This elegant mountain Cabernet contains notes of wet granite and dried herbs which then give way to subtle impressions of anise, cassis and pomegranate. The rich, plush mouth feel, velvety smooth on the palate, is followed by flavors of black cherry, plum and dark chocolate. Aged in 100% new French oak. 194 cases produced.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Des Amis",
+	"description": "Des Amis translates as 'friends,’ which are at the core of the winemaking philosophy. \"Our friendship is the reason we wanted to make a wine together, and we've relied on friends to make this wine a reality,\" says cofounder Greg Ahn. \"Grapes and juice are sourced from fellow winemakers that we have beers with after work and barbeque with on weekends. In addition to the wine itself, they generously offer use of their cellars and labs, share expertise on the winemaking, and let us use their bottling lines. Without these friends, making Des Amis would not be half as good, nor half as fun.\"",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Etrusca",
+	"description": "The ancient Etruscans are credited with the earliest influence on viticulture and winemaking on the northern Italian peninsula. Scholars believe the first French winemakers learned to make wine from the Etruscans around 525B.C. It is that culture and family history that inspired Gus Gamba to establish Etrusca and to honor his connection to the past through wine. \n The 2012 Velia blend was sourced from several vineyard sites within the Russian River appellation, and is composed of Zinfandel, Primitivo and Petite Sirah. Driven by Gus Gamba’s quest to create the most compelling wines, Etrusca combines elements of his family heritage as inspiration, with the goal of producing wines that unlock a world of possibilities in the freedom of blending. Etrusca provides a modest tribute to honor the legacy of this wonderful, enigmatic culture that celebrated wine, introduced wines and carried the knowledge of winemaking to its neighbors around the Mediterranean.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "The Farm Winery",
+	"description": "In 1987, the Achaval and Madsen families began a lifetime friendship that spans from Argentina to California. Since then, winemaker Santiago Achaval has produced the highest rated wines in the history of Argentina. At The Farm Winery, the two families do all the work from vineyard to bottling. The Farm Winery's focus is meticulous farming of special blocks in Paso Robles’ Adelaida and Willow Creek districts. The vineyards include the oldest surviving Cabernet Sauvignon in Paso Robles, planted in 1964, and the highest altitude Grenache and Syrah at 1800 feet. Yields average barely one ton per acre in deep limestone on steep south-facing slopes. As a result, production is highly limited to eight barrels or less per wine. \n The wines are cellar-worthy for a decade or more, and are released only after four or more years of aging.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Gamba",
+	"description": "A sixth generation wine grower, Gus Gamba maintains a solid belief in the philosophy of dry-farmed organic growing practices. Gus’ first release was a very successful 2000 vintage Zinfandel produced from the 100 year-old Gamba Estate Vineyard. Over the years, Gamba’s Russian River Valley wines have continuously garnered numerous awards and accolades from critics such as Robert Parker, Jr. Notably, Robert Parker Jr. called Gamba Zinfandel “among the best.” The definitive wine atlas, Opus Vino by Jim Gordon, says, “Gamba Zinfandels are highly sought after… one of the best in Sonoma County.” During the mid-2000s, Gamba began to manage additional vineyards, including Moratto/Starr Road and Family Ranches, expanding his line of limited release wines.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "mica",
+	"description": "mica (pronounced mee-kuh) means morsel in Latin. mica is a blend of Cabernet Sauvignon, Merlot and Cabernet Franc from premier vineyards in Yountville, Saint Helena and Carneros. It’s the perfect “taste” of Napa Valley.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Miro",
+	"description": "Miro Cellars searches the region for the finest grapes from a variety of vineyards to make their one-of-a-kind specialty wines. Award winning winemaker Miro Tcholakov (who is also the current winemaker at Trentadue) considers the particular geology and seasonal climate variations of each vineyard when selecting the most interesting grapes the region has to offer. Because Miro has complete freedom to make precisely the wines he loves best, the results are a spectacular leap above the expected.",
+	"region": "California"
+}, {
+	"name": "Notre Vin",
+	"description": "Denis Malbec was born at Château Latour, the renowned Bordeaux First Growth house in Pauillac. In 1993, Denis followed in his father's footsteps, starting as a cellar worker at Château Latour and eventually becoming Enologist and Cellar Master. He crafted vintages from 1994 to 1999. May-Britt Malbec has received numerous distinctions as a sommelier, including the Prince Henri-Melchior de Polignac Award in 1992, with Serena Sutcliffe MW as president of the jury, designating May-Britt the best sommelier in the Nordic countries. \n Together, the Malbecs created the wines of Notre Vin to honor their favorite California terroirs. Nearly a decade of consulting with some of the state’s finest wineries, including Kapcsandy and Blankiet, has given this team an in-depth understanding of the region's diverse vineyards and microclimates. For Notre Vin they carefully selected vineyards that yield grapes of concentration and balance, and they interpret this fruit through a legacy of Bordeaux winemaking experience that spans generations.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Philo Ridge",
+	"description": "Philo Ridge Vineyards makes wine in Mendocino’s Anderson Valley. The winery is roughly five miles up a dirt road and two miles off the electrical grid. Fred Buonanno and Heather McKelvey purchased the property, formerly Christine Woods Winery, in 1999. The winemaking and farming philosophy has remained very traditional, and all wines are made sustainably and are vegan. The winery is run with solar and wind power, and is the only 100% wind and solar powered winery in Mendocino County, and was possibly the first such winery in the country. The award-wining Philo Ridge winery produces small lots of balanced, charming wines from Pinot Noir, Gewurztraminer, Chardonnay and Viogner.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Rowland",
+	"description": "Gerry Rowland has been making wine in Napa Valley since the mid-1990s, building the successful Ramspeck and Cenay brands. In 2012, under the Rowland label, he has made a very limited, truly special Cabernet Sauvignon from the Sleeping Lady Vineyard, on the border of the Oak Knoll district in the western Yountville AVA. Rowland joins such producers as Ad Vivim, Provenance and Notre Vin in capturing the expressive purity of this world class Cabernet vineyard. This beautiful wine contains blackberry and blackcurrant flavors with notes of graphite and baking spices. It is rich and elegant, with fine tannins and a long finish.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Sanglier",
+	"description": "In 2001, Glenn and Melissa Alexander purchased a small farmhouse and an old vine zinfandel vineyard in the Russian River Valley. Raised in a farming family in rural East Texas, Glenn was drawn to the vineyards in this part of California. He founded Bacchus Vineyard Management in 2003. Today Bacchus farms vineyards for such iconic wineries as Paul Hobbs, Kosta Browne, and Pahlmeyer, and the Sonoma County biodynamic vineyards owned by the legendary Lurton Family of Bordeaux. \n In 2006 Glenn and Melissa, along with their children Dustin and Chelsea, founded Sanglier Cellars. One hundred cases were produced from a Syrah vineyard located on a sandstone ridge west of Healdsburg. In 2007 Sanglier produced its first wine from the volcanic soils of Kick Ranch located on the eastern flank of Spring Mountain. Since that time, the family has added pinot noir and chardonnay from Russian River Valley and the Sonoma Coast. The great wines and vineyards of France have remained the inspiration for Sanglier’s wines. Glenn farms all the grapes for the wines they produce.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "State of Art",
+	"description": "State of Art is a passion project of Alcohol by Volume Wine Company. Their goal is to spotlight some of the amazing vineyards where they source fruit for their portfolio of wines. The artwork on each wine’s label has been commissioned to tell the story of the wine inside the bottle. The Riesling label was designed by renowned Australian paper sculpture artist, Stuart McLachlan. \n State of Art Riesling comes from the sustainably-farmed Mission Ranch Vineyard located in the Arroyo Seco AVA of Monterey County. The vineyard’s loamy clay and sandy soils are covered by large stones the size of potatoes. Coupled with the maritime climate and cool winds of Monterey, this gives the wine a wonderful mineral and chalky component uncommon in California Riesling. The vineyard produces fruit that is both delicate and powerful. The finished wine contains wonderful aromas of jasmine, lychee, nectarine, and rose petals. Just barely off-dry, the 1.4 grams of residual sugar is perfectly balanced by racy acidity.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Jim Tonjum",
+	"description": "Produced from vineyards in Arroyo Seco and the Santa Lucia Highlands, this approachable wine captures the essence of Monterey County Pinot Noir. The vineyards are well drained, and the finished wine is balanced with a pure fruit expression and moderate alcohol. The wine is aged for four months in oak barrels before bottling.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Vino Noceto",
+	"description": "Suzy and Jim Gullett purchased the two adjacent properties in the Shenandoah Valley that make up the 40 acre Vino Noceto estate in the mid-1980s, eventually planting 25 acres to grapes. With the help of knowledgeable friends such as Darrel Corti, they quickly established Vino Noceto as California’s Sangiovese specialist. Not only did they take inspiration from some of the great Italian Sangiovese-based wines, they sourced vines tracing back to some of the top producers in Tuscany, such as Isole e Olena in Chianti Classico, and Il Pogione and Biondi Santi in Montalcino. \n The hallmarks of Vino Noceto Sangiovese are elegance and finesse – like the best wines of Tuscany, the flavors evolve in the glass and marry beautifully with food. Vintage to vintage, the wines are incredibly consistent. Scott Harvey made the first seven vintages of the wines, and Rusty Folena, who has worked in these vineyards since he was a teenager, is making the wines now.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "workman/ayer",
+	"description": "workman/ayer brings together two great families. The Workman family has a long and broad history in the northern California wine business. The Ayer family has deep roots in agriculture in Iowa and California. These two families have come together to produce small lots of Rhone inspired wines from the Central Coast of California under the workman/ayer label. \nThe fruit for the 2014 “ipso facto” Viognier was harvested at night, and comes entirely from four dry-farmed acres planted in 1995 in the Stolpman Vineyard in Ballard Canyon. The “de facto” Syrah blend comes from vineyards in Los Alamos, Santa Ynez and Ballard Canyon. The wine was aged for 20 months in a mixture of new and used French oak barrels and puncheons and was bottled without filtration.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Yorba",
+	"description": "Yorba is owned by the Kraemer Family, direct descendants of Jose Antonio Yorba, who came to California in 1769 with the Portola Expedition and stayed to raise cattle and grain. In 1913, the family founded the Yorba Orange Growers Association and grew citrus in Southern California. In 2003, they purchased and planted Shake Ridge Vineyards in Amador County. In 2009, they expanded the vineyards to today’s 46 acres. The grapes are planted in small blocks that match the soil to the variety, rootstock and trellising method. Shake Ridge is farmed sustainably, and supplies all the grapes for the Yorba wines. \nAnn Kraemer manages the Shake Ridge Vineyards property, and has worked as a vineyard consultant for high profile producers such as Shafer, Paul Hobbs, Calera and Cain. Ken Bernards of Ancien is the winemaker for the Yorba wines. In addition to supplying Yorba, grapes grown by Ann at Shake Ridge are used by a number of noteworthy California producers, including Keplinger, Aratas, Gallica, A Tribute to Grace, Dirty & Rowdy, Turley, JC Cellars, Favia and Buccella.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Brittan",
+	"description": "Brittan Vineyards began in 2004 when Robert and Ellen Brittan purchased 18 acres of hillside vineyards in McMinnville, including one of the first plantings of the Swan clonal selection of Pinot Noir in Oregon. The soils are a mixture of glacial deposits and volcanic material, with a predominant presence of broken basalt. They have replanted roughly 50% of the vineyards in order to fine-tune the viticultural practices and improve the clonal and rootstock combinations. In addition to the Pinot, 4 acres of Chardonnay and 1.5 acres of Syrah have been planted. These are two varietals that benefit greatly from this cool growing climate. \nThe Basalt block Pinot Noir comes from the parts of the vineyard that have the heaviest concentration of broken sub-marine basalts, resulting in low yielding vines that produce intense flavors and layers of complexity. Yields in the Basalt blocks average just one ton per acre. Chardonnay was sourced from four vineyards in the Willamette Valley: Carabella Vineyard in the Chehalem Mountain AVA, Thistle Vineyard in the Dundee Hills AVA, Hyland Vineyard in the McMinnville AVA, and Willakia Vineyard in the Eola- Amity Hills AVA. The fruit was barrel fermented and aged 8 months in 32% new French oak barrels.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "David Hill",
+	"description": "With sweeping views of Oregon’s coast range, David Hill Vineyards & Winery is one of the most picturesque wine venues in the Willamette Valley. The name of the hill they sit on is David’s Hill, for Frederick David, an Oregon pioneer from the 1800’s. \nThe tasting room was built in 1883 by the Reuter family. Adolph Reuter was born in Germany in 1841. The Reuters produced award-winning wines from grapes grown on the property. Photographs dated 1904 depict the residence surrounded by apparently thriving grape vines. Unfortunately, Prohibition had a devastating effect and eventually all or most of the vines were pulled out in favor of potato plantings. \nDavid Hill Vineyards and Winery is home to the Willamette Valley’s oldest Pinot Noir vines. In 1965 Charles Coury, along with a few other wine pioneers, came north from California to establish vineyards in the Willamette Valley where they believed they could successfully grow Pinot Noir. Many of the vines still exist. There are approximately 6 acres of old vine Pinot Noir and 2 acres of Riesling. There is also Gewürztraminer, Pinot Blanc and Pinot Gris that were planted at that time as well.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Schwarz",
+	"description": "The Schwarz family has owned vineyards for generations, selling their grapes to the local cooperative winery. Hans Schwarz is a master butcher by trade, and in 1992, he made his first “hobby” wine and presented it to his friend Alois Kracher of the famed Weinlaubenhof Kracher. Alois was so impressed with the quality of Hans’ grapes, he convinced him to make his own wine. With help from Kracher, as well as Manfred Krankl of Sine Qua Non fame – the “Mr K’s” – Hans produced his first commercial vintage in 1999. Krankl and Alois’ son, Gerhard, continue to collaborate with him on these distinctive wines. \nSchwarz has 12 ha (30 acres) in Seewinkel in Burgenland along the eastern shore of Lake Neusiedl. The climate is hot, with dry summers cooled by the evening fog from the Lake. Hans Schwarz still has his butcher shop. The labels are designed by Manfred Krankl.",
+	"region": "California",
+	"country":"United States"
+}, {
+	"name": "Albert Hertz",
+	"description": "Albert Hertz winery dates to 1843 and is located on the edge of Eguisheim, a city regarded as the “cradle of the Alsatian wine region.” Albert’s philosophy is to produce authentic wines that align with the soil, the vineyard and the environment. In 1982, the Albert Hertz estate embraced ecological stewardship and started eliminating the use of fertilizers and chemicals. In 2007, they became certified Biodymamic.\nAlbert Hertz’ thoroughness and passion have resulted in local, national and international recognition for his wines, which are balanced, earthy expressions of their grape varieties and vineyards. Total planted vineyard is approximately 9 ha (22 acres).",
+	"region": "Alsace",
+	"country":"France"
+}, {
+	"name": "Jean Sambardier",
+	"description": "Located in Denicé, south of Burgundy and in the heart of the Beaujolais area, the Sambardier family have operated their winery since 1850. The family estate has grown through the generations, and their vineyards include the hillside site used for the Beaujolais Villages, at the center of which is a Medieval chapel (“La Chapelle”), as well as holdings in Brouilly, Julienas and Moulin à Vent. The age range for their vineyards is between 50 and 100 years.\nGrapes for the Beaujolais Villages are handpicked in the morning, brought to the winery on the estate where they are sorted, destemmed and then fermented in stainless steel. After alcoholic fermentation, the wine is moved to new and used French oak barrels where it undergoes malolactic fermentation and ages for about five months. It is then blended and held for three to four additional months to marry at which point it is bottled for release.",
+	"region": "Beaujolais",
+	"country":"France"
+}, {
+	"name": "Clos Badon",
+	"description": "This historic vineyard has been in operation since the late 1800’s. It was purchased in 1998 by Jean-Luc and Murielle Thunevin of Château Valandraud. The label has a chicken featured because Jean-Luc and Murielle raise exotic chickens as pets.\nThe 6.2 ha (15 acres) vineyard, down the slope from Pavie and next to Chapelle d’Ausone, contains a large amount of gravel, sand and quartz in the soil. The wine is aged in 100% new oak for up to 20 months.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Clos 56",
+	"description": "This 0.56 hectare (hence the name Clos 56) or 1.3 acre vineyard is planted to 100% Merlot. Purchased in 2010 by Alexia and Pierre Bouyer (Clos de La Cure, Château Milon); this tiny plot is located in the southwest corner of Pomerol. This is truly one of the most distinctive sites in the region, with its own microclimate due to it being entirely surrounded by houses. The vineyard soil is primarily composed of sand and gravel and the average age of the vines is over 60 years. Since purchasing this vineyard, Pierre has begun organic practices. The wine is aged in 80% new barrels and 20% stainless tanks for 18-20 months.\nThe tiny production of Clos 56 makes it one of the rarest bottlings of Pomerol, a true “insider’s” wine.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Clos Saint-Martin",
+	"description": "Another tiny estate of barely 1.3 ha (3 acres), the Clos Saint-Martin vineyard sits behind the church of Saint Martin (adjacent to Angelus) and has been producing wine since at least 1850. Clos Saint Martin (the smallest classified growth in St. Émilion) has been in the Reiffers Family since the beginning. Sophie Fourcade (Reiffers Family) owns the vineyard and oversees the winemaking. The wine is aged for 20 to 24 months in 100% new oak before bottling.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Château Croix de Labrie",
+	"description": "This tiny winery produces on average just 280 cases, from three small vineyards. One is next to the winery in Saint-Christophe-des-Bardes, one is below Pavie (next to Clos Badon and Chapelle d’Ausone), and the third is near Valandraud. All 3 vineyards total just 2.52 ha (6.2 acres).\nCroix de Labrie is rich and silky, and may share as much stylistically with the 100% Merlot wines of Pomerol as it does with the top wines of Saint Émilion. The wine is aged 24 months in 100% new oak before bottling. Jean-Luc Thunevin, the proprietor of Valandraud, and Michel Rolland, are the consulting enologists. Chappelle de Labrie is made from younger vines, and contains some Cabernet Franc from a vineyard in St. Sulpice next to Valandraud.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Château L'Eglise Clinet",
+	"description": "This estate is located next to L’Eglise St-Jean (the Church of St. Jean) and was at one time part of Domaine de Clinet, which later became Château Clinet. In 1983, Denis Durantou took over the property from his family. The farmhouse had very old wooden tanks and a dirt floor. Over the years, he has cleaned up the winery, added new tanks, poured a concrete floor, and increased the use of new oak barrels.\nThere are 4.4 ha (11 acres) of vineyards with gravelly bluish-gray clay soil that surround the farmhouse winery in the shape of a cross. A small section of the vineyard (approximately 1.5 ha) planted in 1935 was one of the few areas of vines in Pomerol to survive the killer frost of 1956. This plot of Cabernet Franc is the heart and soul of Eglise Clinet.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Gracia",
+	"description": "Former stonemason Michel Gracia's estate is a true garage winery, located in an actual garage inside the town of St. Émilion. Having done masonry work for such clients as Château Ausone, Château Angélus and Leoville Las Cases, Michel was nudged by his good friends Jean-Luc Thunevin (of Valandraud) and Alain Vauthier (of Ausone) to purchase a small vineyard in St Christophe-des-Bardes. Their influence has helped Michel establish himself as one of the most respected and consistent producers in St. Émilion.\nTwo wines are made from two separate vineyards. Gracia comes from a 2.5 ha (6 acres) hillside vineyard in St Christophe-des-Bardes, and Les Angelots des Gracia from a 0.4 ha (1 acre) vineyard next to Château Angélus. Both wines are aged for 24 months in 100% new oak before bottling. Thunevin and Vauthier still provide consulting advice, as does Michel Rolland.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "L'IF",
+	"description": "This estate is next to Troplong Mondot and was purchased by Jacques Thienpont, owner of Le Pin, in early 2010. L’IF (pronounced leaf) loosely translates into yew tree, and is meant to be a sister property to Le Pin, which means the pine. The name is also a play on the English word “if,” relating to all the choices one can make in the vineyard and winery. The vineyard plots total approx. 8 ha (19.75 acres) however, only 5 ha (12 acres) are in production. The remaining 3 ha are fallow and will be planted in the future.\nWinemaker is Cyrille Thienpont, son of Nicolas Thienpont, who makes Pavie Macquin and Château Beauséjour Duffau, along with Stephane Derenoncourt. The 2012 vintage was aged for 16 months in 50% new oak, and is the winery's second release.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Le Pin",
+	"description": "For most of the 20th century the wine from this little vineyard, which takes its name from a lone pine tree on the property, was sold as generic Bordeaux by its longtime owner Madame Laubie. After her passing in 1979 the property was purchased by Jacques Thienpont whose family also owns Vieux Châteaux Certan, and who suspected the vineyard might have great potential. The original purchase was the 1 ha (2.5 acres) that sat adjacent to the old farmhouse. 0.4 ha was immediately re-planted. As time went on, Jacques added a couple more plots, behind and on the other side of the farmhouse. In 2010 the old farmhouse was razed making way for a new modern wine facility that was completed in time for the 2011 harvest.\nWell situated on the Pomerol plateau, the iron-rich soil in this 2.7 ha (6.5 acres) vineyard is mostly composed of gravel and sand with excellent drainage. Yields average a meager 1.6 tons per acre from this 100% Merlot vineyard. About 300 cases are produced in most years. As he has since 1979, Jacques still makes the wines today while his cousin, Alexandre Thienpont (of VCC) manages the vineyard.\n After the fermentation, the wine is transferred to 50% new barriques, where the malolactic fermentation takes place. The wine is aged for 20 to 24 months and bottled unfiltered.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Château Milon",
+	"description": "Owned by Pierre and Alexia Bouyer, who also own Clos de la Cure and Clos 56 in Pomerol. Château Milon has been in the same family for seven generations. This 8.5 ha (21 acres) vineyard is at the base of the Saint- Christophe-des-Bardes slope just outside the town of St. Émilion.\n After a five-day cold soak, the wine is fermented using natural yeast in cement tanks, and then aged in 1/3 new barriques for 12 months before bottling.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "F.Thienpont",
+	"description": "These wines are the personal project of Francois Thienpont, the Bordeaux luminary whose family owns such legendary Right Bank estates as Vieux Château Certan and Le Pin, as well as Château Puygeraud and rising Saint Émilion star L'IF. The range is fruit driven and represents the best qualities of the appellations and vintage.\n Stephane Derencourt, who consults for many Bordeaux wineries including Beausejour Duffau-Lagarrosse, Pavie-Macquin, La Mondotte and Clos Fourtet, is the consulting enologist.\n 2012 is the first vintage of the compelling L’Etoile Lalande de Pomerol, a joint venture between Francois and Guillaume Thienpont, of Vieux Château Certan.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Domaine Virginie Thunevin",
+	"description": "This estate is located in the little town of Lalande de Fronsac and is owned by Virginie Thunevin, the daughter of Jean-Luc Thunevin of Château Valandraud. Jean-Luc is the winemaker. \n Clay and limestone dominate the vineyard. The wine is fermented in cement tanks and aged in a combination of 50% cement and 50% new oak.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Château Valandraud",
+	"description": "Valandraud started as a 0.6 ha (1.5 acre) vineyard in an unheralded section of St. Émilion, when it was purchased in 1989 by Jean-Luc Thunevin and Murielle Andraud. Jean-Luc had owned a very small wine shop in St. Émilion. The origin of the Valandraud name is both geographical and sentimental: “Val” is from Vallon de Fongban, the original name of the vineyard and “Andraud” is Murielle’s maiden name. The white wines (Valandraud Blanc and Virginie de Valandraud Blanc) are made by Murielle Andraud.\n Virgine de Valandraud is a second label to Château Valandraud. This beautiful white wine is grown in a bed of clay rich soil over limestone, and is fermented in stainless steel and then aged for 10 to 12 months in 20% new oak with the rest in second and third use barrels.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Château Venus",
+	"description": "Château Venus was started in 2005 by Emmanuelle and Bertrand Amart. Both had come from winery backgrounds and had worked at various wineries, including in California and Australia.\n The vineyard for this new winery is located in heart of Graves, in the little village of Illats, just west of the Barsac region. Typical for the region, the vineyard contains very gravelly, sandy soils. Just six barrels on average are produced of a prestige cuvée called Apollon, which is aged 18 to 20 months in 85% new French oak.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Vieux Château Certan",
+	"description": "Some of the names for this historic property have disappeared into history, but it has been called Vieux Château Certan since the late 19th century, named by a Parisan banker called de Bousquet who purchased it in 1858. It was sold to the Thienpont family in 1924 and is run today by Alexandre Thienpont.\n The perfectly situated site sits atop the Pomerol plateau. The vineyards of Vieux Château Certan total 14 ha (34.5 acres) and are distinctive due to the high proportion of Cabernet Franc (30%, planted on a mixture of gravel and sand) and Cabernet Sauvignon (10%, planted on red gravel). Meticulous work in the vineyard insures evenly ripe, concentrated fruit is brought to the winery, which has no sorting table. Alexandre believes sorting should take place in the vineyard. Winemaking is traditional, with blending carried out progressively, lot by lot. The wine is aged in 80% new barriques for 20-24 months before bottling.",
+	"region": "Bordeaux",
+	"country":"France"
+}, {
+	"name": "Domaine d’Ardhuy",
+	"description": "Located at the southernmost limit of the Côte de Nuits lies the Domaine D’Ardhuy estate and its monopole Clos des Langres vineyard. The estate is run by Mireille d’Ardhuy-Santiard, who, along with winemaker Carel Voorhuis, makes wine from six Grand Crus and fifteen Premier Crus, including the white Ladoix 1er Cru Le Rognet, which vineyard abuts Corton-Charlemagne. It is said that if this parcel had been planted to Chardonnay when the AOC was classified it would be part of that famous Grand Cru appellation today.\n Their flagship Clos des Langres bottling comes from a three hectare walled vineyard first planed by the monks of Cluny in the 10th century. Their estate’s driveway leads to a very pretty nineteenth century house with vines bordered by small fruit trees. The location is Corgoloin, the house and grounds are in the Côte de Nuits but just the other side of their ‘Clos’ wall is the Côte de Beaune.\n From this ideal location, the strength and focus of the estate is on the Côte de Beaune, with outstanding holdings in Corton, Ladoix, and Savigny. The domaine’s vineyards throughout the Côte D’Or are the heritage of Mireille’s father Gabriel who founded the estate in 1947. Domaine d’Ardhuy’s wines have been produced biodynamically since 2009, and are bottled unfiltered and unfined.",
+	"region": "Burgundy",
+	"country":"France"
+}, {
+	"name": "Doudet-Naudin",
+	"description": "Founded in 1849 by Albert Brenot in Savigny-lès-Beaune, Doudet-Naudin is one of the oldest Burgundy wine houses. In 1933, it was acquired by the Doudet family, who have developed and expanded the maison while preserving its fundamental values: respect for traditions and excellence. Christophe Rochet, the current head of Doudet-Naudin, is committed to maintaining the values of this well-respected maison while restructuring it.\n For almost two centuries they have been producing great wines with a single goal: to reveal and highlight the Burgundy terroir while respecting the values that they hold dear: authenticity and quality. Wines at Doudet-Naudin are hand-harvested and produced using traditional methods. The Vin de France Chardonnay and Pinot Noir ar grown in the cool climate Aude valley, close the Pyrénées.",
+	"region": "Burgundy",
+	"country":"France"
+}, {
+	"name": "Domaine d'Henri",
+	"description": "The Laroche family can date its roots in Chablis back to 1850, when Michel Laroche’s great great grandfather purchased their first vines in the village of Maligny. When Michel’s father inherited the land, it was just two hectares and he expanded it to six by the mid- 1960’s. Today, there are eight hectares, of which 4.5 are planted in the Premier Cru vines of Fouchaume. The cuvee Fourchaume Héritage is from 75 year old vines. The average age of the other vines is 20 years.\n Michel continues to farm the grapes, along with his children. Their philosophy is to keep intervention in the vineyards to a minimum and let nature express itself. They practice sustainable agriculture with a goal of producing healthy grapes and preserving the vineyard for future generations.\n In 2012, Michel and his family began a process of selecting the best of their oldest vines that they will be used as a massal selection to ensure the continuity of their individual characteristics.",
+	"region": "Burgundy",
+	"country":"France"
+}, {
+	"name": "Louis Barthelemy",
+	"description": "In 1923, Russian Princess Baudry fled Moscow and its revolutionary unrest for Epernay and founded Baudry, Lebrun & Cie. In 2002, the estate was acquired by Jean-Barthélémy Chancel, the son of a wine making family from the Rhone. At only 25, Jean-Barthélémy was the youngest champagne négociant of his generation. As a symbol of the rebirth of the estate, he renamed the winery Louis Barthélémy and moved the winery to Aÿ.\n Louis Barthélémy champagnes are made from carefully selected grapes from diverse terroirs. All the wines are characterized by a lower dosage and longer lees-aging. Each wine is named after a precious stone.",
+	"region": "Champagne",
+	"country":"France"
+}, {
+	"name": "Domaines Félines Jourdan",
+	"description": "The Jourdan family has produced wine in the region for generations and founded Domaines Félines Jourdan in 1983. Claude Jourdan is the winemaker. Sensitive to the local environment and the lagoon, the winery uses sustainable farming methods. The vineyards are up to 25 years old and are on three different terroirs.\n Domaines Félines Jourdan is a picturesque vineyard on the edge of the Thau Lagoon, on the Mediterranean coast. The property includes a bird reserve for flamingos and lies just south of Sete, near Montpeillier and the famous oyster producing village of Bourzigues. The maritime influence limits high temperatures and is ideal for crisp whites in particular such as Picpoul de Pinet. In addition to the classic Picpoul, in 2013 the winery produced a limited cuvée called Féline from a distinctive plot close to the lagoon.",
+	"region": "Languedoc",
+	"country":"France"
+}, {
+	"name": "Jean Dumont",
+	"description": "As well as being a keen fisherman and great lover of the Loire, Jean Dumont was a discerning gourmet and connoisseur of wines. During his many trips along the “royal river” by barge, he detected the immense potential that lay hidden in each of the small wine villages where he stopped. He created a fabulous collection of the various wines he encountered on his visits through Sancerre, Anjou, Touraine and Muscadet.\n Jean Dumont wines come from estate vineyards throughout the Loire region. Each wine represents its appellation with typicity and charm, from the racy minerality of the Sancerre to the bright clean flavors of the Muscadet and Sauvignon Blanc.",
+	"region": "Loire",
+	"country":"France"
+}, {
+	"name": "Domaine des Grandes Espérances",
+	"description": "Domaine des Grandes Espérances is located in Mesland in the heart of the Touraine region. The estate was purchased by the saget family in 1988 and originally called Domaine d’Artois. In 2011 the wines were relaunched as Domaine des Grandes Espérances, “great expectations,” with an eye on capturing the unique terroir and varietal expression of this charming site.\n The soils where the red varieties (Cabernet Franc, Malbec, Gamay, Pinot Noir) grow are mostly composed of sand and gravel, producing full, generous wines. The white varieties (Chenin Blanc, Sauvignon Blanc, and Chardonnay) benefit from more siliceous soil, resulting in savory, pure, minerally wines. Domaine des Grandes Espérance is certified annually by Terra Vitis, an association committed to sustainable viticulture that works with qualifying wineries in all French winegrowing regions.",
+	"region": "Loire",
+	"country":"France"
+}, {
+	"name": "Domaine des Terres Blanches",
+	"description": "It could be argued that there is no place in the world that produces more complex Sauvignon Blanc wines than in the Central region of France where Sancerre is located. Among the diverse soil types in Sancerre, those vineyards planted in calcerous terres blanches soil often produce the richest, fullest expressions of Sauvignon Blanc. The jewel-like Domaine des Terres Blanches, overseen by wine director Philippe Reculet in partnership with world-famous oenologist Stéphane Derenoncourt, was created to showcase the very best terroirs in the region.\n The classic estate-bottled Sancerres from Domaine des Terres Blanches showcase the minerality of the appellation while balancing intensity with finesse. And although no formal premier cru or grand cru classifications yet exist for Sancerre, Bellechaume and Chene Marchand should be on anyone’s list of the top vineyards in the region. The Alchemie Sauvignon Blanc is a terrific introduction to the world-class wines of this domaine.",
+	"region": "Loire",
+	"country":"France"
+}, {
+	"name": "Château La Calisse",
+	"description": "After purchasing Château La Calisse in 1991, winemaker Patricia Ortelli thoroughly restored the vineyards and winery. She immediately began farming organically and the property is now certified biodynamic. The Coteaux Varois en Provence appellation, where the estate is located, enjoys a continental climate, and often produces longer lived wines noted for purity and intensity of flavor than some of the other AOPs of Provence. These higher elevation vineyards owe much of their character to the geology of the region: a series of clay-limestone up-thrusts in an East-West direction, alternating with areas of gravel and flint.\n The vineyards of La Calisse lie on a plateau dominated by oak forests and pines. The plots are ideally suited to organic viticulture and the broad temperature swing between day and night gives the wines their structure and their complexity. In addition to producing the standard-bearer Château La Calisse wines, a top cuvee called Patricia Ortelli is also produced.",
+	"region": "Provence",
+	"country":"France"
+}, {
+	"name": "Domaine le Colombier",
+	"description": "In 1962 Jean-Louis Mourre’s father Gilbert and grandfather Louis purchased Le Colombier estate in Vacqueyras. Winegrowing at the property dates back to the 16th Century. In 1992, after studying geology, Jean-Louis returned to help run the family winery, and in 2011, a new winery was completed.\n The estate is just south of the village of Vacqueyras and is currently undergoing a transition to organic viticulture. Three Vacqueyras red wines are produced: Tradition, fermented and aged in cement vats, captures the charm of each vintage; Vielles Vignes, also fermented and aged in cement, comes from a plot planted in 1902; and Cuvée G, named for Jean-Louis' father Gilbert, is an earthy blend of Grenache and Syrah aged in oak for 12 months.",
+	"region": "Rhône",
+	"country":"France"
+}, {
+	"name": "Heymann-Löwenstein",
+	"description": "Whoever leaves the globalized highway of industrialization with its \"taste-can-be-created\" ideology today in order to follow the stony path of terroir wines learns to take himself as not that important, learns to regard nature and the mystery of \"wine\" with respect and humility. At the same time he also discovers a new freedom. The idea of terroir liberates you from the obligation of having to produce wine that has to please everyone, of having to produce wine for the \"common market.\" Terroir always means more liberation, and the realization of individual dreams when it comes to interpreting the vineyard.\n Heymann-Löwenstein’s vineyards are located in Winnegen, near Koblenz. This area, the Terrassen Mosel, is famous for its steep, terraced vineyards.",
+	"region": "Mosel",
+	"country":"Germany"
+}, {
+	"name": "Studert-Prüm",
+	"description": "The Studert family has been making wine since 1581. Studert-Prüm was created in 1970 with the merger of Weingut Stephan Studert and Weingut Peter Prüm, and today the winery is run by brothers Stephan and Gerhard Studert.\n Studert-Prüm produces wines from some of the most renowned vineyards in the Mosel, including the Sonnenuhr vineyard in Wehlen and the Himmelreich vineyard in Graach. Their wines reflect the great traditions of these vineyards and of Mosel Riesling.",
+	"region": "Mosel",
+	"country":"Germany"
+}, {
+	"name": "Dr. Bürklin-Wolf",
+	"description": "With a history that dates to the 16th century, the Dr. Bürklin-Wolf estate includes a treasure trove of toprated vineyard sites in the unique landscape of the Pfalz’s Mittelhaardt district. The Bürklin-Wolf vineyards are on the west side of the Rhine river, about 30 miles from the French border and the vineyards of Alsace. Geographically this part of the Pfalz shares much in common with that famous French wine region. The soil and rock types are variable, in some places limestone, in others sandstone, basalt and loam.\n Bürklin-Wolf is a founding member of the VDP, the trade association of the top wine estates of Germany, and Dr. Albert Bürklin was the chairman of the Pfalz chapter from 1932-1939, and again from 1949-1963. The winery produces a wonderful array of dry Rieslings from exceptional “P.C.” and “G.C.” vineyards in Wachenheim, Forst, Deidesheim and Ruppertsberg. Bürklin-Wolf has long been considered a pioneer for change in German viticulture, and was the first winery in Germany to be certified biodynamic.",
+	"region": "Pfalz",
+	"country":"Germany"
+}, {
+	"name": "Kornell",
+	"description": "The Kornell estate has more than 700 years of winemaking history, and includes 17 ha (42 acres) of vineyards and 37 acres of fruit orchards. The vineyards are on the slope below the ruins of the early Medieval Greifenstein castle. The griffin logo comes from the castle’s coat of arms.\n These south facing vineyards in the Dolomites capture the Mediterranean winds from the south, as well as dry downslope winds from the north. The soil contains weathered porphyrytic rock, which provides good drainage and retains heat. Florian Brigil runs the estate, and his family has been in the winemaking business since the 16th century.",
+	"region": "Alto Adige",
+	"country":"Italy"
+}, {
+	"name": "Colonnara",
+	"description": "The Colonnara estate was founded in 1959 by a cooperative of 19 farmers at a time when there were few wineries in the region. The winery is in Cupramontana, in the heart of the Ancona province in Le Marche.\n The surrounding hills form the Verdicchio dei Castelli di Jesi Classico region, and Colonnara is one of the longstanding proponents of this region’s traditional, versatile white wines. Colonnara's wines are certified organic.",
+	"region": "Marche",
+	"country":"Italy"
+}, {
+	"name": "Coroncino",
+	"description": "Coroncino was founded by Lucio and Fiorella Canestrati in 1981. Coroncino was the name of their farm. The estate consists of three separate vineyards planted between 1981 and 1983, all producing 100% Verdicchio Classico Superiore.\n While not certified organic, the Canestratis make wine as naturally as possible. “We pride ourselves in our use of common sense, in harmony with nature. We want to produce healthy, natural wines both for our customers and ourselves.” They have not fertilized their vineyards since 1995.",
+	"region": "Marche",
+	"country":"Italy"
+}, {
+	"name": "Corino",
+	"description": "The Corinos started as farmworkers and in 1952 they leased the land in Annuziata in La Morra from the church. The land was planted with fruit trees and grapevines, and they sold the grapes to other producers, holding back a small amount for personal use. In 1987, with the help of their good friend Elio Altare, they bottled their first wine. At the same time, their sons, Giuliano and Renato, took over management of the property and started improving the quality of the farming and purchased their first fermentation tanks and oak barrels. In 2005, Renato left to start his own company and today, Corino is operated by Giuliano and his wife, Stefania.\n Corino has 8 ha (20 acres) of vineyards, planted to Nebbiolo, Barbera and Dolcetto. All farming is organic and sustainable. Stylistically, Corino’s wines are classic expressions of their grape varieties, and reference points for the region.\n L’Insieme, meaning together, is made by a group of eight small wine producers from the Piedmont Region. Fondly called “Elio (Altare) and the low yield producers” – as low yields is the production philosophy. They are committed to re-establishing the circle between cattle raising and wine production. Combined with the Slow Food association, money raised is used to purchase cattle and grazing land.",
+	"region": "Piedmont",
+	"country":"Italy"
+}, {
+	"name": "Funaro",
+	"description": "The Funaro family has been farming and growing grapes for three generations in Trapani, a few miles north of Castelvetrano in Westen Sicily. The property sits between 300 and 900 feet above sea level, and is planted to a mix of olive and fruit trees and vineyards. Along with better known local varieties such as Nero d’Avola, Grillo and Inzolia, the family has some of the largest holdings of Perricone. Once widely planted, this underrated variety, known for its highly perfumed wines, was nearly wiped out by phylloxera.\n In 2003, the three Fuanro siblings, Tiziana, Clemente and Giacomo built a small winery and modern history of Funaro began. Funaro wines are certified organic and are a bridge between Sicilian winemaking tradition and eco-friendly production techniques. The labels are inspired by Sicily’s famed ceramics.",
+	"region": "Sicily",
+	"country":"Italy"
+}, {
+	"name": "Ficomontanino",
+	"description": "The Ficomontanino property was purchased in the 1980s by Ruggero Giannelli, who lives by the philosophy of buongusto or “good life,” born of a love of the land and the life it brings. The Giannelli family has nurtured this land for three generations. Today, Ruggero is joined by his son, Alessandro, and grand-daugther, Maria Sole. Maria Sole uses the traditions of her grandfather alongside modern innovations. Luciano Bandini is the winemaker.\nFicomontanino is located in Chiusi, in the eastern part of the province of Siena, in the Chianti Colli Senesi DOCG. The vineyard follows the rounding of the hills with south to southwest exposure and is located at 1000 foot elevation. The Giannellis adhere to the philosophy that wine is made in the vineyard and restrict their vinification to only that which preserves the characteristics of the grapes they harvest. Ficomontanino’s Chiantis are fruit-driven and approachable, with floral and red fruit characteristics.",
+	"region": "Tuscany",
+	"country":"Italy"
+}, {
+	"name": "Nunzi Conti",
+	"description": "In the late 19th century Gualtiero Nunzi purchased vineyards in the heart of the Chianti Classico region just south of Florence. In 1924 his son Antonio Nunzi was one of the founding members of the Consorzio del Vino Chianti Classico Gallo Nero (Black Rooster). Antonio’s younger brother Gualtiero Armando Nunzi eventually took over the family estate and remained committed to promoting the quality of Chianti Classico through the Consorzio, eventually becoming its president from 1994 to 1997. In 1965 the family added the 15th century Villa Pancani to the estate, and this is where the wines are made today.\n Through the years, the estate’s vineyards have contributed to many of the great wines made by other wineries in the area. And although the family is tight-lipped about which famous wines made nearby might have been made with their grapes, it is notable that the Solaia and Tignanello vineyards are neighbors. Today, Nunzi Conti is run by Gualtiero’s son Maurizio and grandchildren Antonio and Isabella, with the 2012 vintage being the first bottled under this new label. Famiglia Nunzi Conti Chianti Classico is an elegant wine that captures the pure “red fruit and leather” character the region is famous for. The Vigna Elisa is a 100% Sangiovese from the best single vineyard on the estate.",
+	"region": "Tuscany",
+	"country":"Italy"
+}, {
+	"name": "Val di Toro",
+	"description": "Val di Toro sits on the hill of Poggio La Mozza, in the heart of the Maremma district. Once used for cattle grazing, the property is surrounded by oak trees that gave shade to the cattle. The Val di Toro winery was founded in 2003 by Anna Maria Cruciata and her husband, Hugh Constable Maxwell, who moved together from Milan. Their love and appreciation of the land has led them to keep the oak trees and to farm the estate organically. They live and work the property with their children.\n Val di Toro is about six miles from the Mediterranean, at the foot of the south western slope that comes down from Montalcino. It has a dry climate with light breezes. The soil is disaggregated sandstone, rich in minerals. Grapes for the wines are hand harvested, destemmed and sorted before fermentation. The resulting wines have a refreshing purity of expression.",
+	"region": "Tuscany",
+	"country":"Italy"
+}, {
+	"name": "Villa I Cipressi",
+	"description": "Villa I Cipressi is the quintessential small, family operated farm. The estate was purchased over 30 years ago by Hubert Ciacci, who started as a beekeeper. The family began by making honey and honey related products. Then in the 1990’s they planted olive trees and 1.5 ha (3.7 acres) of Sangiovese vines and expanded into other products, such as olive oil, liqueurs, jams and other delicacies.\n Today, Villa I Cipressi is comprised of two small vineyards totaling 3 ha (7.4 acres). Their elevations are 750 and 1,350 feet above sea level with sandy and loamy soils. Hubert Ciacci’s son Frederico makes classic, medium bodied wines under the Villa I Cipressi label. His ‘’Zebras’’ bottlings are richer, deeply flavored wines with silky tannins and exotic spice notes.",
+	"region": "Tuscany",
+	"country":"Italy"
+}, {
+	"name": "Adalia",
+	"description": "The Adalia estate is in the lovely Valle di Mezzane in Verona and is owned and run by Marinella Camerani and her daughter Federica. Marinella built her reputation at Corte Sant’Alda, where her celebrated Amarones and Reciotos earned her the “Winemaker of the Year” accolade from Gambero Rosso in 2008. In 2009 she purchased a seven acre parcel of pergola trained vineyards on a limestone-rich hillside nearby and Adalia was born. The estate is named for a type of ladybug (Adalia bipunctata) found in the vineyards that keeps the aphid population in check.\n Federica leads the winemaking at Adalia, and her wines are made with native yeast, and bottled unfined and unfiltered. Stylistically they share a freshness and a purity of expression making them textbook examples of these classic Veneto wines. Federica is currently overseeing the estate’s conversion to biodynamic production.",
+	"region": "Veneto",
+	"country":"Italy"
+}, {
+	"name": "Contra Soarda",
+	"description": "Contra Soarda is located just outside the picturesque town of Bassano del Grappa, about one hour north of Venice. The property has been in the Gottard Family for over a century. It originally began as a farm with a frasca that offered refreshments to passersby and then expanded into a trattoria. Today the winery, designed by famed bio-architect Henry Zilio, is built into the hillside to minimize environmental impact. The facilities include state-of-the-art vinification equipment; where gravity moves musts and temperature is controlled through geothermal science. The winey has won numerous architectural awards.\n The vineyards contain volcanic soil and sit on the Saint Michael hills, at the foot of the Asiago plateau. Vines and olive trees have been growing in the area since the 12th century. In 1999, 12 ha (29 acres) were planted into three vineyards, represented graphically on the labels. Due to a thermal inversion, Contra Soarda’s terroir is defined by hot days and cool, windy nights. The wines are distinctive examples of local varieties such as Marzemino Nero, and aromatic whites like Garganega, best known in Soave, and Vespaiolo.",
+	"region": "Veneto",
+	"country":"Italy"
+}, {
+	"name": "Porto Menéres",
+	"description": "Porto Menéres is owned by the van Zeller family whose connection to the wine business dates back to the beginning of the 17th Century, when they fled Flanders, now Belgium, for Portugal during the Eighty Years War. According to the local records the van Zellers were the biggest wine traders registered at that time. In the mid-20th century the family owned the legendary Quinta do Noval estate, which they sold in 1993. Today the van Zeller family can boast of 15 consecutive generations devoted to the Port and Douro wine trade, an unprecedented fact in any other Portuguese family \"dynasty\" involved in the wine business.\n Grapes for Porto Menéres come from the family estates of Quinta do Saião and Quinta de Zom. The fruit is hand harvested into small baskets, macerated with the whole clusters and fermented using native yeasts.",
+	"region": "Douro Litoral",
+	"country":"Portugal"
+}, {
+	"name": "Domaines Lupier",
+	"description": "Four years ago Enrique Basarte and Elisa Úcar started rescuing small plots of Garnacha in very old vineyards. After many years’ experience working in wine, and convinced that the making of a great wine takes place in the vineyard, Elisa and Enrique examined the terroir in various areas until they found what they were looking for: old Garnacha vines in different soils, orientations and altitudes – between 1300 and 2500 feet above sea level in the north of Spain. In total Domaines Lupier consists of twenty-seven small plots located in an Atlantic climate in the northern Navarra region. Of the 14 ha (35 acres) the largest plot is 1.2 ha (3 acres); yields average a meager 1.2 tons per acre.\n Lupier means \"path of the wolf.\" Centuries ago, wolves dominated these higher elevation areas. The twentyseven small vineyards, some planted as far back as 1903, made it possible to obtain the “savage” expression of Garnacha they were looking for. The La Dama plots are surrounded by numerous wildflowers. It is these wildflowers that give La Dama its floral lift or perfume.\n The wines are aged in large oak barrels for up to 24 months before bottling.",
+	"region": "Navarra",
+	"country":"Spain"
+}, {
+	"name": "Fernandez Gomez",
+	"description": "Situated in the Rioja Alavesa sub-region of the Rioja D.O.C, Fernandez Gomez wines are all crafted from the family's 70 acres of vineyard. Bordered by the River Ebro on the South and the towering Cantabria mountains on the North, the Rioja Alavesa region is home to all the vineyards owned by family Fernandez Gomez, the majority of which are 80+ years old. All hand-harvested, the Fernandez Gomez wines are a product of centuries of winemaking knowledge.\n The family home, located in the hamlet of Labastida, Spain, is also connected to the winery's underground network of 4 natural caves which perfectly moderate the ageing of the wine in 500 oak barrels. Carlos and his 3 brothers run the vineyard management, winemaking, production, export, and sale of their family wines from the Rioja Alavesa region.",
+	"region": "Rioja",
+	"country":"Spain"
+}, {
+	"name": "José Pariente",
+	"description": "In the 1960s, José Pariente began producing artisanal Verdejos from exceptional vineyards in Rueda. He practiced a meticulous viticulture and had faith in his soil, in quality and in the pleasure of making wine. His desire to produce great white wines is the raison d’être of the present-day winery, which his daughter Victoria Pariente established in 2008. The original estate vineyards still supply the grapes, with many of the vines now over 40 years old.\n The varietal Verdejo is fermented in stainless steel, and is intense, with an aroma of fresh white fruits, citrus and passion fruit. Structured and persistent, it also has a note of anise, and it captures the elegant crispness of the Verdejo variety. A limited production barrel fermented bottling is richer, with spice notes and a minerally, slightly smoky finish.",
+	"region": "Rueda",
+	"country":"Spain"
+}, {
+	"name": "Bodegas Arráez",
+	"description": "The Bodegas Arráez winery was started in 1916 by a cooperative of local growers. In the 1950s Don Antonio Arráez Garrigós purchased the property and it became Bodegas Arráez. His son, Don Antonio Arráez Ibanco then took over in 1980, and he modernized the facilities and expanded the brand internationally. Bodegas Arráez is now run by the third generation Toni Arráez Calabuig. Toni has continued to make improvements yet he’s very sensitive to keeping the character and tradition of both the region and his family. Despite a history that goes back 100 years, Bodegas Arráez is a young winery where the average age of the team is 30 years old. And while they are serious about making good wine, they don’t take themselves too seriously.\n About the wines: the Calabuig wines are named for Toni’s mother, Maía Belén Calabuig, who wanted Toni to make an “honest wine” for everyday. Eduardo Bermejo started out as a street artist and not only has two wines named after him, he did the artwork for most of the Arráez wine labels. Verdil is a white grape variety in Valencia that was nearly extinct until it was recently “rescued” by a new generation of winemakers, including Toni Arráez. And lastly, Mala Vida means bad life but might more closely translate as “rock and roll life.” Not bad meaning bad but bad meaning good.",
+	"region": "Valencia",
+	"country":"Spain"
+}, {
+	"name": "Fabre Montmayou",
+	"description": "Hervé Joyaux Fabre, owner and director of Fabre Montmayou, was born in Bordeaux to a family of wine negociants. In the early 1990s he was impressed by the potential for Malbec in Mendoza and he purchased the first of several old vine, high elevation vineyards, including an impeccable 37 acre plot of ungrafted Malbec in Vistalba planted in 1908. A pioneering Patagonian winery was constructed in the Rio Negro region ten years later. All wines are estate grown, farmed using traditional methods without the use of herbicides or pesticides, and are fermented with native yeasts.\n The award-winning Cabernet Franc shows the true potential of this often overlooked variety in Mendoza. The Malbec wines come from vineyards at least 50 years old. The Patagonia Cabernet Sauvignon is from a 35 year old estate vineyard in the Alto Valle of Rio Negro, the Southernmost wine growing region in Latin America!",
+	"region": "Mendoza",
+	"country":"Argentina"
+}, {
+	"name": "Huia",
+	"description": "Claire and Mike Allan started Huia Vineyards in 1996. Prior to that, they had gained valuable experience at wineries in Marlborough. Mike at Cloudy Bay and Vavasour and Claire at Corbans and Lawson's Dry Hills. They also both worked and made wine in Champagne at Veuve Cliquot and Taittinger, respectively. This diverse, hands-on experience gave them a great grounding in making bright fruit-driven wines, but also integrated an appreciation of the sense of land, heritage and tradition.\n Two estate vineyards provide grapes for the Huia Sauvignon Blanc, one providing a tropical fruit profile while the other adds pleasant herbaceous notes, lime and minerality. Around ten percent of the juice undergoes natural fermentation in a mixture of neutral to new French oak. Elderflower, red bell pepper, and nettles lift the nose; the palate is fine, well balanced and shows classical minerality. For Huia’s Pinot Noir, perfect dark purple bunches are hand-picked and then de-stemmed into tank. After a cold soak, a controlled fermentation lasts about two weeks. In the finished wine, black red fruits and smoky, savory notes show on the nose. The palate has dark cherry, hints of blackberry, spice, chocolate and vanilla. Huia’s wines are certified organic and are biodynamically grown.",
+	"region": "Marlborough",
+	"country":"New Zealand"
+}]
+

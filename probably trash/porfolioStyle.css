@@ -1,0 +1,41 @@
+.title {
+	margin: 10px 30px 10px 30px;
+	font: Arial;
+	font-size: 20px;
+}
+
+.page-break {
+	margin: 20px;
+	border: solid gray 1px;
+}
+
+.search-sidebar {
+	width: 300px;
+	float: left;
+	border: solid red 1px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.results {
+	float: right;
+	display: inline-block;
+	width: 70%;
+}
+
+.entry {
+	overflow: auto;
+	display: block;
+}
+
+.logo-space {
+	display: inline-block;
+	width: 600px;
+}
+
+.description-space {
+	width: ;
+	float: right;
+	max-height: 250px;
+	display: inline-block;
+}
