@@ -37,10 +37,9 @@ h2 {
 }
 
 #search-sidebar {
-	width: 250px;
-	height: 500px;
+	width: 170px;
+	height: 300px;
 	float: left;
-	border: solid red 1px;
 	margin: 10px;
 	display: inline-block;
 }
@@ -48,7 +47,7 @@ h2 {
 #results {
 	float: right;
 	display: inline-block;
-	width: 70%;
+	width: 75%;
 	padding-left: 15px;
 	margin-right: 
 }
@@ -62,12 +61,12 @@ h2 {
 
 .logo-space {
 	display: inline-block;
-	width: 25%;
+	width: 22%;
 	height: 100%;
 }
 
 .description-space {
-	width: 72%;
+	width: 75%;
 	float: right;
 	height: 100%;
 	display: inline-block;
@@ -111,4 +110,29 @@ div .sitelink {
 .sitelink a:hover {
 	color: #710400;
 }
+
+select {
+	background: white;
+	border: solid darkgoldenrod 1px;
+	font-size: 14px;
+	height: 29px;
+	padding: 5px; /* If you add too much padding here, the options won't show in IE */
+	width: 150px;
+}
+
+button {
+	display: block;
+	margin: 25px;
+	margin-left: 0;
+	background-color: darkgoldenrod;
+	border: none;
+	font-size: 14px;
+	padding: 5px;
+}
+
+h3 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
 

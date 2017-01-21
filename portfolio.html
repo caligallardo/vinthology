@@ -7,6 +7,26 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/bannerStyle.css">
 	<link rel="stylesheet" type="text/css" href="styles/portfolioStyle.css">
+	<script type="text/javascript" src="selector.js"></script>
+	<script type="text/javascript">
+         var wineries;
+         var dataURL = "https://api.myjson.com/bins/1937vz";
+         var countryWineries;
+		$.ajax({
+            type: 'GET',
+            url: dataURL,
+            async: false,
+            contentType: "application/json",
+            dataType: 'json',
+            success: function (json) {
+                wineries = json;
+            },
+            error: function (e) {
+                alert("error");
+            }
+        });
+         console.log("Loaded winery list into wineries. Size:" + wineries.length);
+	</script>
 </head>
 <body>
 	<header>
@@ -43,8 +63,8 @@
 		<div class="content">
 			<div id="search-sidebar">
 				<h3>Filter by Country</h3>
-				<select>
-				  <option selected="selected" value="%">All</option>
+				<select id="countrySelector">
+				    <option selected="selected" value="All">All</option>
                     <option value="Argentina">Argentina</option>
                     <option value="France">France</option>
                     <option value="Germany">Germany</option>
@@ -54,92 +74,51 @@
                     <option value="Spain">Spain</option>
                     <option value="United States">United States</option>
 				</select>
+
 				<h3>Filter by Region</h3>
-				<select>
-				  <option selected="selected" value="%">All</option>
+				<select id="regionSelector">
+				  <option selected="selected" value="All">All</option>
 				</select>
-			</div>
-			<div id="results">
+
 				<script type="text/javascript">
-					$.getJSON( "https://api.myjson.com/bins/8ge9j", function(result){
-	$.each(result, function(index, winery){
-			/* generate entry of form:
-			<div class="entry">
-				<div class="logo-space">
-					<img src="images/portfolio-logos/rowland">
-					<div class="sitelink">
-						<p >Website: </p><a href="website url">website url</a>
-					</div>
-				</div>
-				<div class="description-space">
-					<h1>Heading</h1>
-					<h2 >Subheading</h2>
-					<p>Description</p>
-				</div>
-			</div>
-			*/
-		var entry = document.createElement("div");
-		entry.className = "entry";
-
-		// logo-space
-		var logoSpace = document.createElement("div");
-		logoSpace.className = "logo-space";
-
-		// <img class = "site-logo" src="path">
-		var img = document.createElement("img");
-		if(winery.hasOwnProperty("logo")){
-			img.src = "images/portfolio-logos/" + winery.logo;
-		}
-
-		/* 
-		<div class="sitelink">
-			<p class="sitelink">Website: </p><a href="">website url</a>
-		</div>
-		*/
-		var sitelink = document.createElement("div");
-		sitelink.className = "sitelink";
-		if(winery.hasOwnProperty("website")){
-			var pSite = document.createElement("p");
-			pSite.appendChild(document.createTextNode("Website:\n"))
-			sitelink.appendChild(pSite);
-			var a = document.createElement("a");
-			a.href = winery.website;
-			a.appendChild(document.createTextNode(winery.website));
-			a.appendChild(document.createTextNode("website"));
-			sitelink.appendChild(a);
-		}
-
-		logoSpace.appendChild(img);
-		logoSpace.appendChild(sitelink);
-
-		// info
-		var desSpace = document.createElement("div");
-		var h1 = document.createElement("h1");
-		var h2 = document.createElement("h2");
-		var des = document.createElement("p");
-		h1.appendChild(document.createTextNode(winery.name));
-		h2.appendChild(document.createTextNode("Region: " + winery.region + "     Country: " + winery.country));
-		des.appendChild(document.createTextNode(winery.description.replace(/\n/, "\n\n")));
-		desSpace.appendChild(h1);
-		desSpace.appendChild(h2);
-		desSpace.appendChild(des);
-		desSpace.className = "description-space";
-
-		entry.appendChild(logoSpace);
-		entry.appendChild(desSpace);
-		var element = document.getElementById("results");
-		element.appendChild(entry);
-	})
-});
+					$( "#countrySelector" ).change(function() {
+						console.log("country has been selected:" + this.value);
+						var regions;
+					  	[countryWineries, regions] = filterByCountry(this.value, wineries);
+					  	var regionSelector = getRegionSelector();
+					  	setSelectorOptions(regionSelector, regions);
+					});
 				</script>
 
+				<script type="text/javascript">
+					$( "#regionSelector" ).change(function() {
+					  	regionWineries = filterByRegion(this.value, countryWineries);
+					});
+				</script>
+
+				<button type="button" onclick="generateEntries(regionWineries)">Search</button>
 
 			</div>
 
+			<script type="text/javascript">
+				/*var results;
+				$.getJSON( "https://api.myjson.com/bins/8ge9j", function(allWineries) {
+  					results = allWineries;
+  					return false;
+				})
+				return results;*/
+				
+			</script>
+
+			<div id="results">
+
+			</div>
+			<script type="text/javascript">generateEntries(wineries);</script> 
 		</div>
 
 		</div>
 	</div>
+
 	<footer class="footer-distributed">
 
 			<div class="footer-right">
