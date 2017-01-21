@@ -12,6 +12,7 @@
          var wineries;
          var dataURL = "https://api.myjson.com/bins/1937vz";
          var countryWineries;
+         var results;
 		$.ajax({
             type: 'GET',
             url: dataURL,
@@ -76,7 +77,7 @@
 				</select>
 
 				<h3>Filter by Region</h3>
-				<select id="regionSelector">
+				<select id="regionSelector" disabled>
 				  <option selected="selected" value="All">All</option>
 				</select>
 
@@ -87,16 +88,21 @@
 					  	[countryWineries, regions] = filterByCountry(this.value, wineries);
 					  	var regionSelector = getRegionSelector();
 					  	setSelectorOptions(regionSelector, regions);
+					  	// enable region selector if for specific country. disable if for All
+					  	if (this.value == "All"){regionSelector.disabled = true;}
+					  	else {regionSelector.disabled = false;}
+					  	results = countryWineries;
 					});
 				</script>
 
 				<script type="text/javascript">
 					$( "#regionSelector" ).change(function() {
 					  	regionWineries = filterByRegion(this.value, countryWineries);
+					  	results = regionWineries;
 					});
 				</script>
 
-				<button type="button" onclick="generateEntries(regionWineries)">Search</button>
+				<button type="button" onclick="generateEntries(results)">Search</button>
 
 			</div>
 

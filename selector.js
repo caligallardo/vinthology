@@ -125,6 +125,17 @@ function loadResults(allWineries){
 
 function generateEntries(results){
 	$( "#results").html('');
+	if ($("#countrySelector").val() == "All"){
+		console.log("here1");
+		results = wineries;
+	}
+	/*
+	else if ($("#regionSelector").val() == "All"){
+		console.log("here2");
+		results = filterByRegion(($(#regionSelector).val()), countryWineries);
+	}*/
+
+	console.log("beginning generateEntries. results.length:" + results.length)
 	$.each(results, function(index, winery){
 			/* generate entry of form:
 			<div class="entry">
