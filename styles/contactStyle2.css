@@ -1,12 +1,13 @@
 .form-container {
   margin: 0 10%;
   font-family: Arial;
+  margin-top: 10px;
 }
 
 form {
 	height: 400px;
 	width: 500px;
-	margin: 0 auto;
+	margin: 30px auto;
 }
 
 #first-name {
@@ -37,7 +38,7 @@ form {
 }
 
 form label {
-  color: #444444;
+  color: #710400;
   padding: 5px 0;
   display: block;
 }
