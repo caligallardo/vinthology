@@ -190,10 +190,13 @@ function generateEntries(results){
 		var desSpace = document.createElement("div");
 		var h1 = document.createElement("h1");
 		var h2 = document.createElement("h2");
-		var des = document.createElement("p");
+		var des = document.createElement("div");
+		var desPara = document.createElement("p");
 		h1.appendChild(document.createTextNode(winery.name));
 		h2.appendChild(document.createTextNode("Region: " + winery.region + "     Country: " + winery.country));
-		des.appendChild(document.createTextNode(winery.description.replace(/\n/, "\n\n")));
+		des.className = "description-text";
+		desPara.appendChild(document.createTextNode(winery.description.replace(/\n/, "\n\n")));
+		des.appendChild(desPara);
 		desSpace.appendChild(h1);
 		desSpace.appendChild(h2);
 		desSpace.appendChild(des);

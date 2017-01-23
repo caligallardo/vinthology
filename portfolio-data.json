@@ -492,5 +492,12 @@
 	"country":"New Zealand",
 	"website": "http://www.huiavineyards.com/",
 	"logo": "huia.jpeg"
+}, {
+	"name":"La Parisienne (Beer)",
+	"description":"La Parisienne is a craft brewery in Paris, France, founded by Jean Barthélémy Chancel, the owner of Champagne Louis Barthélémy. Jean opened his first brewery in 2011: the Brasserie Artisanale du Luberon, focusing on organic non-filtered and non-pasteurized beers with a second bottle fermentation. Jean had been disappointed by the poor French offering of bland industrial beers, and this first adventure in beer allowed him to gain the necessary brewing expertise to open La Parisienne brewery in 2014, and kick off a resurgence in craft beer production in Paris. \n La Parisienne is a top fermenting beer. The first fermentation last about 5 days and takes place at roughly 68°F, followed by a second “cold” fermentation at about 39°F for 15 to 21 days. The yeast then falls to the bottom of the vat, clarifying the beer. Once the second “cold” fermentation is over, the beer is bottled without any filtration or pasteurization. Liquor made out of beer and sugar is added during bottling in order to create sufficient carbonation, and this third bottle fermentation naturally produces a dense lather with a delicate and persistent bubble, and can be compared to the “champagne” method. The presence of lees in the bottle brings added structure and complexity. This maturation process continues over time, allowing the beer to develop a wide range of secondary aromas, usually associated with champagne.",
+	"region": "Paris",
+	"country": "France",
+	"website":"http://brasserielaparisienne.com/en/",
+	"logo": "laparisienne.png"
 }]
 

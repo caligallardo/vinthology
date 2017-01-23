@@ -15,14 +15,6 @@ body {
 	float: left;
 }
 
-.results {
-	display: inline-block;
-	width: 70%;
-	float: right;
-	color: gray;
-	padding-left: 20px;
-}
-
 .logo-and-stuff {
 	display: inline-block;
 	width: 25%;
