@@ -111,7 +111,7 @@ function getValue(selector){
 	return selector.value;
 }
 
-function loadResults(allWineries){
+/*function loadResults(allWineries){
 	var countrySelector = getCountrySelector();
 	var regionSelector = getRegionSelector();
 
@@ -121,7 +121,7 @@ function loadResults(allWineries){
 	var results = filterByRegion(region, countryWineries);
 	console.log("Results loaded")
 	return results;
-}
+}*/
 
 function generateEntries(results){
 	$( "#results").html('');

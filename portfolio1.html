@@ -10,86 +10,88 @@
 	<script type="text/javascript" src="selector1.js"></script>
 	<script type="text/javascript">
 	var wineries;
+	var countryWineries;
          $.getJSON( "https://api.myjson.com/bins/18ddbz", function(results){
 	/*
 	else if ($("#regionSelector").val() == "All"){
 		console.log("here2");
 		results = filterByRegion(($(#regionSelector).val()), countryWineries);
 	}*/
-
-	console.log("beginning to generate initial entries. results.length:" + results.length)
-	$.each(results, function(index, winery){
-			/* generate entry of form:
-			<div class="entry">
-				<div class="logo-space">
-					<img src="images/portfolio-logos/rowland">
-					<div class="sitelink">
-						<p >Website: </p><a href="website url">website url</a>
-					</div>
-				</div>
-				<div class="description-space">
-					<h1>Heading</h1>
-					<h2 >Subheading</h2>
-					<p>Description</p>
-				</div>
-			</div>
-			*/
-		var entry = document.createElement("div");
-		entry.className = "entry";
-
-		// logo-space
-		var logoSpace = document.createElement("div");
-		logoSpace.className = "logo-space";
-
-		// <img class = "site-logo" src="path">
-		var img = document.createElement("img");
-		if(winery.hasOwnProperty("logo")){
-			img.src = "images/portfolio-logos/" + winery.logo;
-		}
-
-		/* 
-		<div class="sitelink">
-			<p class="sitelink">Website: </p><a href="">website url</a>
-		</div>
-		*/
-		var sitelink = document.createElement("div");
-		sitelink.className = "sitelink";
-		if(winery.hasOwnProperty("website")){
-			var pSite = document.createElement("p");
-			pSite.appendChild(document.createTextNode("Website:\n"))
-			sitelink.appendChild(pSite);
-			var a = document.createElement("a");
-			a.href = winery.website;
-			a.appendChild(document.createTextNode(winery.website));
-			a.appendChild(document.createTextNode("website"));
-			sitelink.appendChild(a);
-		}
-
-		logoSpace.appendChild(img);
-		logoSpace.appendChild(sitelink);
-
-		// info
-		var desSpace = document.createElement("div");
-		var h1 = document.createElement("h1");
-		var h2 = document.createElement("h2");
-		var des = document.createElement("div");
-		var desPara = document.createElement("p");
-		h1.appendChild(document.createTextNode(winery.name));
-		h2.appendChild(document.createTextNode("Region: " + winery.region + "     Country: " + winery.country));
-		des.className = "description-text";
-		desPara.appendChild(document.createTextNode(winery.description.replace(/\n/, "\n\n")));
-		des.appendChild(desPara);
-		desSpace.appendChild(h1);
-		desSpace.appendChild(h2);
-		desSpace.appendChild(des);
-		desSpace.className = "description-space";
-
-		entry.appendChild(logoSpace);
-		entry.appendChild(desSpace);
-		var element = document.getElementById("results");
-		element.appendChild(entry);
-	});
 	wineries = results;
+	console.log("beginning to generate initial entries. results.length:" + results.length)
+	generateEntries(results);
+	// $.each(results, function(index, winery){
+	// 		/* generate entry of form:
+	// 		<div class="entry">
+	// 			<div class="logo-space">
+	// 				<img src="images/portfolio-logos/rowland">
+	// 				<div class="sitelink">
+	// 					<p >Website: </p><a href="website url">website url</a>
+	// 				</div>
+	// 			</div>
+	// 			<div class="description-space">
+	// 				<h1>Heading</h1>
+	// 				<h2 >Subheading</h2>
+	// 				<p>Description</p>
+	// 			</div>
+	// 		</div>
+	// 		*/
+	// 	var entry = document.createElement("div");
+	// 	entry.className = "entry";
+
+	// 	// logo-space
+	// 	var logoSpace = document.createElement("div");
+	// 	logoSpace.className = "logo-space";
+
+	// 	// <img class = "site-logo" src="path">
+	// 	var img = document.createElement("img");
+	// 	if(winery.hasOwnProperty("logo")){
+	// 		img.src = "images/portfolio-logos/" + winery.logo;
+	// 	}
+
+	// 	/* 
+	// 	<div class="sitelink">
+	// 		<p class="sitelink">Website: </p><a href="">website url</a>
+	// 	</div>
+	// 	*/
+	// 	var sitelink = document.createElement("div");
+	// 	sitelink.className = "sitelink";
+	// 	if(winery.hasOwnProperty("website")){
+	// 		var pSite = document.createElement("p");
+	// 		pSite.appendChild(document.createTextNode("Website:\n"))
+	// 		sitelink.appendChild(pSite);
+	// 		var a = document.createElement("a");
+	// 		a.href = winery.website;
+	// 		a.appendChild(document.createTextNode(winery.website));
+	// 		a.appendChild(document.createTextNode("website"));
+	// 		sitelink.appendChild(a);
+	// 	}
+
+	// 	logoSpace.appendChild(img);
+	// 	logoSpace.appendChild(sitelink);
+
+	// 	// info
+	// 	var desSpace = document.createElement("div");
+	// 	var h1 = document.createElement("h1");
+	// 	var h2 = document.createElement("h2");
+	// 	var des = document.createElement("div");
+	// 	var desPara = document.createElement("p");
+	// 	h1.appendChild(document.createTextNode(winery.name));
+	// 	h2.appendChild(document.createTextNode("Region: " + winery.region + "     Country: " + winery.country));
+	// 	des.className = "description-text";
+	// 	desPara.appendChild(document.createTextNode(winery.description.replace(/\n/, "\n\n")));
+	// 	des.appendChild(desPara);
+	// 	desSpace.appendChild(h1);
+	// 	desSpace.appendChild(h2);
+	// 	desSpace.appendChild(des);
+	// 	desSpace.className = "description-space";
+
+	// 	entry.appendChild(logoSpace);
+	// 	entry.appendChild(desSpace);
+	// 	var element = document.getElementById("results");
+	// 	element.appendChild(entry);
+	// });
+	//wineries = results;
 
 });
 	/*console.log("initial entries generated");
