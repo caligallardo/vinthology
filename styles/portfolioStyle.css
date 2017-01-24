@@ -9,8 +9,9 @@ p {
 }
 
 .description-text {
-	overflow-y: auto;
-	height: 9em;
+	/*overflow-y: auto;
+	height: 9em;*/
+	overflow-y: hidden;
 	padding-right: 5px;
 }
 
@@ -69,7 +70,8 @@ h2 {
 
 .entry {
 	display: block;
-	height: 205px;
+/*	height: 205px;*/
+	overflow: hidden;
 	border-bottom: solid gray 1px;
 	padding: 25px 0;
 }
