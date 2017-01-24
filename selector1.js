@@ -126,7 +126,6 @@ function getValue(selector){
 function generateEntries(results){
 	$( "#results").html('');
 	if ($("#countrySelector").val() == "All"){
-		console.log("here1");
 		results = wineries;
 	}
 	/*
@@ -179,7 +178,6 @@ function generateEntries(results){
 			var a = document.createElement("a");
 			a.href = winery.website;
 			a.appendChild(document.createTextNode(winery.website));
-			a.appendChild(document.createTextNode("website"));
 			sitelink.appendChild(a);
 		}
 

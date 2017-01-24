@@ -167,7 +167,6 @@ function generateEntry(winery){
 		var a = document.createElement("a");
 		a.href = winery.website;
 		a.appendChild(document.createTextNode(winery.website));
-		a.appendChild(document.createTextNode("website"));
 		sitelink.appendChild(a);
 	}
 
@@ -217,6 +216,8 @@ function generateEntries(results){
 }
 
 function paginate(results, itemsPerPage){
+	// generates entries.
+	// return pages: array where the ith item is the listings
 	$( "#results").html('');
 	if ($("#countrySelector").val() == "All"){
 		results = wineries;
@@ -262,13 +263,22 @@ function createPagination(numPages){
 	}
 	// multiple pages
 	$( ".pagination").html('');
+	paginations = $(".pagination").getElementByClassName();
 
 	var prev = document.createElement("li");
+	prev.innerHTML = '<button onclick="">«</button>';
 	var next = document.createElement("li");
-	prev.appendChild(document.createElement("button").appendChild(createTextNode("«")));
-	next.appendChild(document.createElement("button").appendChild(createTextNode("»")));
+	next.innerHTML = '<button onclick="">»</button>';
+	$.each(paginations, function(index, pagination){
+
+	});
+//	prev.appendChild(document.createElement("button").appendChild(createTextNode("«")));
+//	next.appendChild(document.createElement("button").appendChild(createTextNode("»")));
+	// clone and add nodes & clones to paginations
 	for (var i = 1; i <= numPages; i++) {
-		
+		//var button = document.createElement("li");
+		//button.innerHTML = 
+		// clone node and add to paginations
 	}
 
 }
