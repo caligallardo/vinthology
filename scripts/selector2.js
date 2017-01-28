@@ -195,7 +195,9 @@ function generateEntry(winery){
 }
 
 function generateEntries(results){
+	// clear current entries
 	$( "#results").html('');
+	// get all wineries if country is all
 	if ($("#countrySelector").val() == "All"){
 		results = wineries;
 	}
@@ -216,6 +218,7 @@ function generateEntries(results){
 }
 
 function paginate(results, itemsPerPage){
+	console.log(" beginning paginate")
 	// generates entries.
 	// return pages: array where the ith item is the listings
 	$( "#results").html('');
@@ -225,20 +228,21 @@ function paginate(results, itemsPerPage){
 	var pages = [];
 	var page = [];
 	var itemNum = 1;
+
 	$.each(results, function(index, winery){
 		item = winery;
 		// create element
 		entry = generateEntry(winery);
 		page.push(entry);
-		// if last item
+		// if last item, push current page
 		if (index == results.length-1){
 			pages.push(page);
 		}
 		else {
-			console.log("index: " + index)
-			// if item on last page
+			// console.log("index: " + index)
+			// if last item on page, push page and reset itemNum
 			if (itemNum == itemsPerPage){
-				console.log("page " + pages.length+1 + "completed. pushing to pages")
+				console.log("page " + (pages.length+1) + "completed. pushing to pages")
 				pages.push(page);
 				page = [];
 				itemNum = 1;
@@ -248,39 +252,89 @@ function paginate(results, itemsPerPage){
 			}
 		}
 	});
-	console.log("completed pages")
+	console.log("completed pages: " + pages.length)
 	// initialize to first page
 	var element = document.getElementById("results");
 	$.each(pages[0], function(index, item){
 		element.appendChild(item);
 	});
+	createPagination(pages.length);
 	return pages;
 }
 
 function createPagination(numPages){
+	console.log("beginning createPagination");
+	// clear contents
+	$( ".pagination").html('');
+	// only one page. no pagination
 	if (numPages <= 1){ 
-		return; // only one page. no pagination
+		return;
 	}
 	// multiple pages
-	$( ".pagination").html('');
-	paginations = $(".pagination").getElementByClassName();
-
-	var prev = document.createElement("li");
-	prev.innerHTML = '<button onclick="">«</button>';
-	var next = document.createElement("li");
-	next.innerHTML = '<button onclick="">»</button>';
+	currentPage = 1;
+	paginations = document.getElementsByClassName("pagination");
+	//console.log("retrieved pagination objects: " + paginations.length)
+	// for both pagination objects (top and bottom)
 	$.each(paginations, function(index, pagination){
+		var prev = document.createElement("li");
+		prev.innerHTML = '<a class = "disabled" onclick="">«</a>';
+		pagination.appendChild(prev);
+		
+		var a = document.createElement("li");
+		a.innerHTML = "<a class = \"active\" onclick=\"goToPage(" + 1 + ")\">" + 1 + "</a>";
+		pagination.appendChild(a);
+
+		for (var i = 2; i <= numPages; i++) {
+			var a = document.createElement("li");
+			a.innerHTML = "<a class=\"pageNumber\" onclick=\"goToPage(" + i + ")\">" + i.toString() + "</a>";
+			pagination.appendChild(a);
+		}
+		var next = document.createElement("li");
+		next.innerHTML = '<a onclick=\"goToPage(currentPage+1)\">»</a>';
+		pagination.appendChild(next);
 
 	});
-//	prev.appendChild(document.createElement("button").appendChild(createTextNode("«")));
-//	next.appendChild(document.createElement("button").appendChild(createTextNode("»")));
-	// clone and add nodes & clones to paginations
-	for (var i = 1; i <= numPages; i++) {
-		//var button = document.createElement("li");
-		//button.innerHTML = 
-		// clone node and add to paginations
-	}
-
 }
+
+function goToPage(pageNum){
+	// pageNum: page to go to
+	// updates results div to entries on page pageNum of pages
+	// updates pagination bars to reflect new page location
+
+	console.log("going to page " + pageNum)
+	$( "#results").html('');
+	var element = document.getElementById("results");
+
+	// update entries
+	$.each(pages[pageNum-1], function(index, entry){
+		element.appendChild(entry);
+	});
+	// update pagination
+	$( ".pagination").html('');
+	pageNumbers = document.getElementsByClassName("pageNum");
+	$.each(paginations, function(index, pagination){
+		// previous
+		var prev = document.createElement("li");
+		// disable if going to page 1
+		if (pageNum==1){prev.innerHTML = "<a class = \"disabled\">«</a>"}
+		else{prev.innerHTML = '<a onclick=\"goToPage(currentPage-1)\">«</a>'}
+		pagination.appendChild(prev);
+
+		for (var i = 1; i <= pages.length; i++) {
+			var a = document.createElement("li");
+			if (i == pageNum){a.innerHTML = "<a class=\"pageNum active\" onclick=\"goToPage(" + i + ")\">" + i.toString() + "</a>"}
+			else {a.innerHTML = "<a class=\"pageNum\" onclick=\"goToPage(" + i + ")\">" + i.toString() + "</a>"};
+			pagination.appendChild(a);
+		}
+		// next
+		var next = document.createElement("li");
+		// disable if going to last page
+		if (pageNum==pages.length){next.innerHTML = "<a class = \"disabled\">»</a>"}
+		else{next.innerHTML = '<a onclick=\"goToPage(currentPage+1)\">»</a>'}
+		pagination.appendChild(next);
+	});
+	currentPage = pageNum;
+}
+
 
 

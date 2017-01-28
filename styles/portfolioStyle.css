@@ -171,39 +171,55 @@ h3 {
 	float: right;
 	margin-top: 30px;
 	width: 500px;
-	height: 36px;
 }
 
-ul.pagination {
+ol.pagination {
     display: inline-block;
     padding: 0;
     margin: 0;
+    float: right;
 }
 
-ul.pagination li {display: inline;}
+ol.pagination li {display: inline;}
 
-ul.pagination li a {
+ol.pagination li a {
     color: black;
     float: left;
-    padding: 8px 16px;
+    padding: 6px 14px;
     text-decoration: none;
     transition: background-color .3s;
     border: 1px solid #ddd;
     margin: 0 4px;
 }
 
-ul.pagination li a.active {
+ol.pagination li a.active {
     background-color: #710400;
     color: white;
     border: 1px solid #710400;
 }
 
-ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+ol.pagination li a:hover:not(.active) {background-color: #ddd;}
 
-ul.pagination li button {
+ol.pagination li a.disabled {
+	color: gray;
+	pointer-events: none;
+}
+
+
+ol.pagination li .active {
+    background-color: #710400;
+    color: white;
+    border: 1px solid #710400;
+}
+
+ol.pagination li :hover:not(.active) {background-color: #ddd;}
+
+
+
+ol.pagination li button {
     color: black;
     float: left;
-    padding: 8px 16px;
+    padding: 6px 14px;
     text-decoration: none;
     transition: background-color .3s;
     border: 1px solid #ddd;
@@ -211,13 +227,17 @@ ul.pagination li button {
     background-color: white;
 }
 
-ul.pagination li button.active {
+ol.pagination li button.active {
     background-color: #710400;
     color: white;
     border: 1px solid #710400;
 }
 
-ul.pagination li button:hover:not(.active) {background-color: #ddd;}
+ol.pagination li button:hover:not(.active) {background-color: #ddd;}
+
+#pagination2 {
+	width: 500;
+}
 
 /*
 .description-text::-webkit-scrollbar {

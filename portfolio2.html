@@ -12,15 +12,22 @@
 	// wineries: all wineries
 	// results: wineries refined by filter settings
 	// countryWineries: all wineries in selected country
-	itemsPerPage = 10;
+
 	var wineries;
 	var countryWineries;
-         $.getJSON( "https://api.myjson.com/bins/18ddbz", function(results){
+	var pages;
+
+$(window).bind("load", function() {
+   itemsPerPage = 10;
+         $.getJSON( "https://api.myjson.com/bins/s8cr1", function(results){
 			wineries = results;
 			//generateEntries(results);
 			pages = paginate(results, itemsPerPage);
-			});
+
          	console.log("Loaded winery list into wineries. Size:" + wineries.length);
+			});
+});
+
 	</script>
 </head>
 <body>
@@ -55,7 +62,7 @@
 			Search Our Wines
 		</div>
 		<div class="pagination-box">
-			<ul class="pagination">
+			<ol class="pagination" id="pagination1">
 			  <li><a href="#">«</a></li>
 			  <li><a href="#">1</a></li>
 			  <li><a class="active" href="#">2</a></li>
@@ -65,7 +72,7 @@
 			  <li><a href="#">6</a></li>
 			  <li><a href="#">7</a></li>
 			  <li><a href="#">»</a></li>
-			</ul>
+			</ol>
 		</div>
 		<div class="page-break"></div>
 		<div class="content">
@@ -121,10 +128,10 @@
 
 		</div>
 		<div class="pagination-box">
-			<ul class="pagination">
+			<ol class="pagination" id="pagination2">
 			  <li><button>«</button></li>
 			  <li><button>»</button></li>
-			</ul>
+			</ol>
 		</div>
 		</div>
 	</div>
