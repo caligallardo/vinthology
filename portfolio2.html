@@ -16,10 +16,11 @@
 	var wineries;
 	var countryWineries;
 	var pages;
+	var currentPage;
 
 $(window).bind("load", function() {
    itemsPerPage = 10;
-         $.getJSON( "https://api.myjson.com/bins/s8cr1", function(results){
+         $.getJSON( "https://api.myjson.com/bins/14wcq1", function(results){
 			wineries = results;
 			//generateEntries(results);
 			pages = paginate(results, itemsPerPage);
@@ -45,6 +46,9 @@ $(window).bind("load", function() {
 			<li>
 				<a href="contact1.html">Contact</a>
 			</li>
+			<li>
+				<a href="news.html">News</a>
+			</li>
 		</ul>
 	</header>
 	<div class="page-container">
@@ -63,15 +67,6 @@ $(window).bind("load", function() {
 		</div>
 		<div class="pagination-box">
 			<ol class="pagination" id="pagination1">
-			  <li><a href="#">«</a></li>
-			  <li><a href="#">1</a></li>
-			  <li><a class="active" href="#">2</a></li>
-			  <li><a href="#">3</a></li>
-			  <li><a href="#">4</a></li>
-			  <li><a href="#">5</a></li>
-			  <li><a href="#">6</a></li>
-			  <li><a href="#">7</a></li>
-			  <li><a href="#">»</a></li>
 			</ol>
 		</div>
 		<div class="page-break"></div>
@@ -129,8 +124,6 @@ $(window).bind("load", function() {
 		</div>
 		<div class="pagination-box">
 			<ol class="pagination" id="pagination2">
-			  <li><button>«</button></li>
-			  <li><button>»</button></li>
 			</ol>
 		</div>
 		</div>

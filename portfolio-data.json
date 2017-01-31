@@ -66,7 +66,8 @@
 	"description": "Des Amis translates as 'friends,’ which are at the core of the winemaking philosophy. \"Our friendship is the reason we wanted to make a wine together, and we've relied on friends to make this wine a reality,\" says cofounder Greg Ahn. \"Grapes and juice are sourced from fellow winemakers that we have beers with after work and barbeque with on weekends. In addition to the wine itself, they generously offer use of their cellars and labs, share expertise on the winemaking, and let us use their bottling lines. Without these friends, making Des Amis would not be half as good, nor half as fun.\"",
 	"region": "California",
 	"country":"United States",
-	"website":"http://www.closdesamis.com/"
+	"website":"http://www.closdesamis.com/",
+	"logo": "desamis.jpg"
 }, {
 	"name": "Etrusca",
 	"description": "The ancient Etruscans are credited with the earliest influence on viticulture and winemaking on the northern Italian peninsula. Scholars believe the first French winemakers learned to make wine from the Etruscans around 525B.C. It is that culture and family history that inspired Gus Gamba to establish Etrusca and to honor his connection to the past through wine. \n The 2012 Velia blend was sourced from several vineyard sites within the Russian River appellation, and is composed of Zinfandel, Primitivo and Petite Sirah. Driven by Gus Gamba’s quest to create the most compelling wines, Etrusca combines elements of his family heritage as inspiration, with the goal of producing wines that unlock a world of possibilities in the freedom of blending. Etrusca provides a modest tribute to honor the legacy of this wonderful, enigmatic culture that celebrated wine, introduced wines and carried the knowledge of winemaking to its neighbors around the Mediterranean.",
@@ -119,8 +120,7 @@
 	"description": "Gerry Rowland has been making wine in Napa Valley since the mid-1990s, building the successful Ramspeck and Cenay brands. In 2012, under the Rowland label, he has made a very limited, truly special Cabernet Sauvignon from the Sleeping Lady Vineyard, on the border of the Oak Knoll district in the western Yountville AVA. Rowland joins such producers as Ad Vivim, Provenance and Notre Vin in capturing the expressive purity of this world class Cabernet vineyard. This beautiful wine contains blackberry and blackcurrant flavors with notes of graphite and baking spices. It is rich and elegant, with fine tannins and a long finish.",
 	"region": "California",
 	"country":"United States",
-	"website":"http://www.rowlandcellars.com/",
-	"logo":"rowland.png"
+	"website":"http://www.rowlandcellars.com/"
 }, {
 	"name": "Sanglier",
 	"description": "In 2001, Glenn and Melissa Alexander purchased a small farmhouse and an old vine zinfandel vineyard in the Russian River Valley. Raised in a farming family in rural East Texas, Glenn was drawn to the vineyards in this part of California. He founded Bacchus Vineyard Management in 2003. Today Bacchus farms vineyards for such iconic wineries as Paul Hobbs, Kosta Browne, and Pahlmeyer, and the Sonoma County biodynamic vineyards owned by the legendary Lurton Family of Bordeaux. \n In 2006 Glenn and Melissa, along with their children Dustin and Chelsea, founded Sanglier Cellars. One hundred cases were produced from a Syrah vineyard located on a sandstone ridge west of Healdsburg. In 2007 Sanglier produced its first wine from the volcanic soils of Kick Ranch located on the eastern flank of Spring Mountain. Since that time, the family has added pinot noir and chardonnay from Russian River Valley and the Sonoma Coast. The great wines and vineyards of France have remained the inspiration for Sanglier’s wines. Glenn farms all the grapes for the wines they produce.",
@@ -133,7 +133,8 @@
 	"description": "State of Art is a passion project of Alcohol by Volume Wine Company. Their goal is to spotlight some of the amazing vineyards where they source fruit for their portfolio of wines. The artwork on each wine’s label has been commissioned to tell the story of the wine inside the bottle. The Riesling label was designed by renowned Australian paper sculpture artist, Stuart McLachlan. \n State of Art Riesling comes from the sustainably-farmed Mission Ranch Vineyard located in the Arroyo Seco AVA of Monterey County. The vineyard’s loamy clay and sandy soils are covered by large stones the size of potatoes. Coupled with the maritime climate and cool winds of Monterey, this gives the wine a wonderful mineral and chalky component uncommon in California Riesling. The vineyard produces fruit that is both delicate and powerful. The finished wine contains wonderful aromas of jasmine, lychee, nectarine, and rose petals. Just barely off-dry, the 1.4 grams of residual sugar is perfectly balanced by racy acidity.",
 	"region": "California",
 	"country":"United States",
-	"website":"http://www.soawines.com/"
+	"website":"http://www.soawines.com/",
+	"logo": "soa.jpg"
 }, {
 	"name": "Jim Tonjum",
 	"description": "Produced from vineyards in Arroyo Seco and the Santa Lucia Highlands, this approachable wine captures the essence of Monterey County Pinot Noir. The vineyards are well drained, and the finished wine is balanced with a pure fruit expression and moderate alcohol. The wine is aged for four months in oak barrels before bottling.",
@@ -188,13 +189,15 @@
 	"description": "Albert Hertz winery dates to 1843 and is located on the edge of Eguisheim, a city regarded as the “cradle of the Alsatian wine region.” Albert’s philosophy is to produce authentic wines that align with the soil, the vineyard and the environment. In 1982, the Albert Hertz estate embraced ecological stewardship and started eliminating the use of fertilizers and chemicals. In 2007, they became certified Biodymamic.\nAlbert Hertz’ thoroughness and passion have resulted in local, national and international recognition for his wines, which are balanced, earthy expressions of their grape varieties and vineyards. Total planted vineyard is approximately 9 ha (22 acres).",
 	"region": "Alsace",
 	"country":"France",
-	"website":"http://www.alberthertz.com/EN/"
+	"website":"http://www.alberthertz.com/EN/",
+	"logo": "alberthertz.jpg"
 }, {
 	"name": "Jean Sambardier",
 	"description": "Located in Denicé, south of Burgundy and in the heart of the Beaujolais area, the Sambardier family have operated their winery since 1850. The family estate has grown through the generations, and their vineyards include the hillside site used for the Beaujolais Villages, at the center of which is a Medieval chapel (“La Chapelle”), as well as holdings in Brouilly, Julienas and Moulin à Vent. The age range for their vineyards is between 50 and 100 years.\nGrapes for the Beaujolais Villages are handpicked in the morning, brought to the winery on the estate where they are sorted, destemmed and then fermented in stainless steel. After alcoholic fermentation, the wine is moved to new and used French oak barrels where it undergoes malolactic fermentation and ages for about five months. It is then blended and held for three to four additional months to marry at which point it is bottled for release.",
 	"region": "Beaujolais",
 	"country":"France",
-	"website":"http://www.elixirwinegroup.com/france-1/jean-sambardier-2015"
+	"website":"http://www.elixirwinegroup.com/france-1/jean-sambardier-2015",
+	"logo": "jeansambardier.jpg"
 }, {
 	"name": "Clos Badon",
 	"description": "This historic vineyard has been in operation since the late 1800’s. It was purchased in 1998 by Jean-Luc and Murielle Thunevin of Château Valandraud. The label has a chicken featured because Jean-Luc and Murielle raise exotic chickens as pets.\nThe 6.2 ha (15 acres) vineyard, down the slope from Pavie and next to Chapelle d’Ausone, contains a large amount of gravel, sand and quartz in the soil. The wine is aged in 100% new oak for up to 20 months.",
@@ -206,7 +209,8 @@
 	"description": "This 0.56 hectare (hence the name Clos 56) or 1.3 acre vineyard is planted to 100% Merlot. Purchased in 2010 by Alexia and Pierre Bouyer (Clos de La Cure, Château Milon); this tiny plot is located in the southwest corner of Pomerol. This is truly one of the most distinctive sites in the region, with its own microclimate due to it being entirely surrounded by houses. The vineyard soil is primarily composed of sand and gravel and the average age of the vines is over 60 years. Since purchasing this vineyard, Pierre has begun organic practices. The wine is aged in 80% new barrels and 20% stainless tanks for 18-20 months.\nThe tiny production of Clos 56 makes it one of the rarest bottlings of Pomerol, a true “insider’s” wine.",
 	"region": "Bordeaux",
 	"country":"France",
-	"website":"http://www.domaines-bouyer.com/clos-56-pomerol-gb.php"
+	"website":"http://www.domaines-bouyer.com/clos-56-pomerol-gb.php",
+	"logo": "clos56.gif"
 }, {
 	"name": "Clos Saint-Martin",
 	"description": "Another tiny estate of barely 1.3 ha (3 acres), the Clos Saint-Martin vineyard sits behind the church of Saint Martin (adjacent to Angelus) and has been producing wine since at least 1850. Clos Saint Martin (the smallest classified growth in St. Émilion) has been in the Reiffers Family since the beginning. Sophie Fourcade (Reiffers Family) owns the vineyard and oversees the winemaking. The wine is aged for 20 to 24 months in 100% new oak before bottling.",
@@ -236,7 +240,8 @@
 	"name": "L'IF",
 	"description": "This estate is next to Troplong Mondot and was purchased by Jacques Thienpont, owner of Le Pin, in early 2010. L’IF (pronounced leaf) loosely translates into yew tree, and is meant to be a sister property to Le Pin, which means the pine. The name is also a play on the English word “if,” relating to all the choices one can make in the vineyard and winery. The vineyard plots total approx. 8 ha (19.75 acres) however, only 5 ha (12 acres) are in production. The remaining 3 ha are fallow and will be planted in the future.\nWinemaker is Cyrille Thienpont, son of Nicolas Thienpont, who makes Pavie Macquin and Château Beauséjour Duffau, along with Stephane Derenoncourt. The 2012 vintage was aged for 16 months in 50% new oak, and is the winery's second release.",
 	"region": "Bordeaux",
-	"country":"France"
+	"country":"France",
+	"logo":"lif.jpg"
 }, {
 	"name": "Le Pin",
 	"description": "For most of the 20th century the wine from this little vineyard, which takes its name from a lone pine tree on the property, was sold as generic Bordeaux by its longtime owner Madame Laubie. After her passing in 1979 the property was purchased by Jacques Thienpont whose family also owns Vieux Châteaux Certan, and who suspected the vineyard might have great potential. The original purchase was the 1 ha (2.5 acres) that sat adjacent to the old farmhouse. 0.4 ha was immediately re-planted. As time went on, Jacques added a couple more plots, behind and on the other side of the farmhouse. In 2010 the old farmhouse was razed making way for a new modern wine facility that was completed in time for the 2011 harvest.\nWell situated on the Pomerol plateau, the iron-rich soil in this 2.7 ha (6.5 acres) vineyard is mostly composed of gravel and sand with excellent drainage. Yields average a meager 1.6 tons per acre from this 100% Merlot vineyard. About 300 cases are produced in most years. As he has since 1979, Jacques still makes the wines today while his cousin, Alexandre Thienpont (of VCC) manages the vineyard.\n After the fermentation, the wine is transferred to 50% new barriques, where the malolactic fermentation takes place. The wine is aged for 20 to 24 months and bottled unfiltered.",
@@ -275,7 +280,8 @@
 	"description": "Château Venus was started in 2005 by Emmanuelle and Bertrand Amart. Both had come from winery backgrounds and had worked at various wineries, including in California and Australia.\n The vineyard for this new winery is located in heart of Graves, in the little village of Illats, just west of the Barsac region. Typical for the region, the vineyard contains very gravelly, sandy soils. Just six barrels on average are produced of a prestige cuvée called Apollon, which is aged 18 to 20 months in 85% new French oak.",
 	"region": "Bordeaux",
 	"country":"France",
-	"website":"http://www.chateauvenus.com/"
+	"website":"http://www.chateauvenus.com/",
+	"logo":"chateauvenus.jpg"
 }, {
 	"name": "Vieux Château Certan",
 	"description": "Some of the names for this historic property have disappeared into history, but it has been called Vieux Château Certan since the late 19th century, named by a Parisan banker called de Bousquet who purchased it in 1858. It was sold to the Thienpont family in 1924 and is run today by Alexandre Thienpont.\n The perfectly situated site sits atop the Pomerol plateau. The vineyards of Vieux Château Certan total 14 ha (34.5 acres) and are distinctive due to the high proportion of Cabernet Franc (30%, planted on a mixture of gravel and sand) and Cabernet Sauvignon (10%, planted on red gravel). Meticulous work in the vineyard insures evenly ripe, concentrated fruit is brought to the winery, which has no sorting table. Alexandre believes sorting should take place in the vineyard. Winemaking is traditional, with blending carried out progressively, lot by lot. The wine is aged in 80% new barriques for 20-24 months before bottling.",
@@ -301,7 +307,8 @@
 	"description": "The Laroche family can date its roots in Chablis back to 1850, when Michel Laroche’s great great grandfather purchased their first vines in the village of Maligny. When Michel’s father inherited the land, it was just two hectares and he expanded it to six by the mid- 1960’s. Today, there are eight hectares, of which 4.5 are planted in the Premier Cru vines of Fouchaume. The cuvee Fourchaume Héritage is from 75 year old vines. The average age of the other vines is 20 years.\n Michel continues to farm the grapes, along with his children. Their philosophy is to keep intervention in the vineyards to a minimum and let nature express itself. They practice sustainable agriculture with a goal of producing healthy grapes and preserving the vineyard for future generations.\n In 2012, Michel and his family began a process of selecting the best of their oldest vines that they will be used as a massal selection to ensure the continuity of their individual characteristics.",
 	"region": "Burgundy",
 	"country":"France",
-	"website": "http://ledomainedhenri.fr/en"
+	"website": "http://ledomainedhenri.fr/en",
+	"logo":"henri.png"
 }, {
 	"name": "Louis Barthelemy",
 	"description": "In 1923, Russian Princess Baudry fled Moscow and its revolutionary unrest for Epernay and founded Baudry, Lebrun & Cie. In 2002, the estate was acquired by Jean-Barthélémy Chancel, the son of a wine making family from the Rhone. At only 25, Jean-Barthélémy was the youngest champagne négociant of his generation. As a symbol of the rebirth of the estate, he renamed the winery Louis Barthélémy and moved the winery to Aÿ.\n Louis Barthélémy champagnes are made from carefully selected grapes from diverse terroirs. All the wines are characterized by a lower dosage and longer lees-aging. Each wine is named after a precious stone.",
@@ -376,7 +383,8 @@
 	"description": "The Kornell estate has more than 700 years of winemaking history, and includes 17 ha (42 acres) of vineyards and 37 acres of fruit orchards. The vineyards are on the slope below the ruins of the early Medieval Greifenstein castle. The griffin logo comes from the castle’s coat of arms.\n These south facing vineyards in the Dolomites capture the Mediterranean winds from the south, as well as dry downslope winds from the north. The soil contains weathered porphyrytic rock, which provides good drainage and retains heat. Florian Brigil runs the estate, and his family has been in the winemaking business since the 16th century.",
 	"region": "Alto Adige",
 	"country":"Italy",
-	"website": "http://www.kornell.it/en"
+	"website": "http://www.kornell.it/en",
+	"logo": "kornell.jpg"
 }, {
 	"name": "Colonnara",
 	"description": "The Colonnara estate was founded in 1959 by a cooperative of 19 farmers at a time when there were few wineries in the region. The winery is in Cupramontana, in the heart of the Ancona province in Le Marche.\n The surrounding hills form the Verdicchio dei Castelli di Jesi Classico region, and Colonnara is one of the longstanding proponents of this region’s traditional, versatile white wines. Colonnara's wines are certified organic.",
@@ -388,7 +396,8 @@
 	"name": "Coroncino",
 	"description": "Coroncino was founded by Lucio and Fiorella Canestrati in 1981. Coroncino was the name of their farm. The estate consists of three separate vineyards planted between 1981 and 1983, all producing 100% Verdicchio Classico Superiore.\n While not certified organic, the Canestratis make wine as naturally as possible. “We pride ourselves in our use of common sense, in harmony with nature. We want to produce healthy, natural wines both for our customers and ourselves.” They have not fertilized their vineyards since 1995.",
 	"region": "Marche",
-	"country":"Italy"
+	"country":"Italy",
+	"logo": "coroncino.jpg"
 }, {
 	"name": "Corino",
 	"description": "The Corinos started as farmworkers and in 1952 they leased the land in Annuziata in La Morra from the church. The land was planted with fruit trees and grapevines, and they sold the grapes to other producers, holding back a small amount for personal use. In 1987, with the help of their good friend Elio Altare, they bottled their first wine. At the same time, their sons, Giuliano and Renato, took over management of the property and started improving the quality of the farming and purchased their first fermentation tanks and oak barrels. In 2005, Renato left to start his own company and today, Corino is operated by Giuliano and his wife, Stefania.\n Corino has 8 ha (20 acres) of vineyards, planted to Nebbiolo, Barbera and Dolcetto. All farming is organic and sustainable. Stylistically, Corino’s wines are classic expressions of their grape varieties, and reference points for the region.\n L’Insieme, meaning together, is made by a group of eight small wine producers from the Piedmont Region. Fondly called “Elio (Altare) and the low yield producers” – as low yields is the production philosophy. They are committed to re-establishing the circle between cattle raising and wine production. Combined with the Slow Food association, money raised is used to purchase cattle and grazing land.",
@@ -422,7 +431,8 @@
 	"description": "Val di Toro sits on the hill of Poggio La Mozza, in the heart of the Maremma district. Once used for cattle grazing, the property is surrounded by oak trees that gave shade to the cattle. The Val di Toro winery was founded in 2003 by Anna Maria Cruciata and her husband, Hugh Constable Maxwell, who moved together from Milan. Their love and appreciation of the land has led them to keep the oak trees and to farm the estate organically. They live and work the property with their children.\n Val di Toro is about six miles from the Mediterranean, at the foot of the south western slope that comes down from Montalcino. It has a dry climate with light breezes. The soil is disaggregated sandstone, rich in minerals. Grapes for the wines are hand harvested, destemmed and sorted before fermentation. The resulting wines have a refreshing purity of expression.",
 	"region": "Tuscany",
 	"country":"Italy",
-	"website":"http://www.valditoro.it/"
+	"website":"http://www.valditoro.it/",
+	"logo":"valditoro.jpg"
 }, {
 	"name": "Villa I Cipressi",
 	"description": "Villa I Cipressi is the quintessential small, family operated farm. The estate was purchased over 30 years ago by Hubert Ciacci, who started as a beekeeper. The family began by making honey and honey related products. Then in the 1990’s they planted olive trees and 1.5 ha (3.7 acres) of Sangiovese vines and expanded into other products, such as olive oil, liqueurs, jams and other delicacies.\n Today, Villa I Cipressi is comprised of two small vineyards totaling 3 ha (7.4 acres). Their elevations are 750 and 1,350 feet above sea level with sandy and loamy soils. Hubert Ciacci’s son Frederico makes classic, medium bodied wines under the Villa I Cipressi label. His ‘’Zebras’’ bottlings are richer, deeply flavored wines with silky tannins and exotic spice notes.",
@@ -448,7 +458,8 @@
 	"name": "Porto Menéres",
 	"description": "Porto Menéres is owned by the van Zeller family whose connection to the wine business dates back to the beginning of the 17th Century, when they fled Flanders, now Belgium, for Portugal during the Eighty Years War. According to the local records the van Zellers were the biggest wine traders registered at that time. In the mid-20th century the family owned the legendary Quinta do Noval estate, which they sold in 1993. Today the van Zeller family can boast of 15 consecutive generations devoted to the Port and Douro wine trade, an unprecedented fact in any other Portuguese family \"dynasty\" involved in the wine business.\n Grapes for Porto Menéres come from the family estates of Quinta do Saião and Quinta de Zom. The fruit is hand harvested into small baskets, macerated with the whole clusters and fermented using native yeasts.",
 	"region": "Douro Litoral",
-	"country":"Portugal"
+	"country":"Portugal",
+	"logo":"portomeneres.jpg"
 }, {
 	"name": "Domaines Lupier",
 	"description": "Four years ago Enrique Basarte and Elisa Úcar started rescuing small plots of Garnacha in very old vineyards. After many years’ experience working in wine, and convinced that the making of a great wine takes place in the vineyard, Elisa and Enrique examined the terroir in various areas until they found what they were looking for: old Garnacha vines in different soils, orientations and altitudes – between 1300 and 2500 feet above sea level in the north of Spain. In total Domaines Lupier consists of twenty-seven small plots located in an Atlantic climate in the northern Navarra region. Of the 14 ha (35 acres) the largest plot is 1.2 ha (3 acres); yields average a meager 1.2 tons per acre.\n Lupier means \"path of the wolf.\" Centuries ago, wolves dominated these higher elevation areas. The twentyseven small vineyards, some planted as far back as 1903, made it possible to obtain the “savage” expression of Garnacha they were looking for. The La Dama plots are surrounded by numerous wildflowers. It is these wildflowers that give La Dama its floral lift or perfume.\n The wines are aged in large oak barrels for up to 24 months before bottling.",
