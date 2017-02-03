@@ -5,9 +5,9 @@ function clearSelectorOptions(selector){
 function setSelectorOptions(selectorObject, optionValues){
 	/* 
 		selectorObject: an empty select element
-		optionValues: a list of optionValues (string), i.e. country names or region names
+		optionValues: a list of optionValue's (string), i.e. country names or region names
 
-		Adds optionValue options to selectorObject
+		Sets selectorObject options to options of optionValues
 		 */
 	$( selectorObject).html('');
 	var optionAll = document.createElement("option");
@@ -196,7 +196,7 @@ function generateEntry(winery){
 
 function generateEntries(results){
 	// clear current entries
-	$( "#results").html('');
+	$( "#result-container").html('');
 	// get all wineries if country is all
 	if ($("#countrySelector").val() == "All"){
 		results = wineries;
@@ -206,7 +206,7 @@ function generateEntries(results){
 	$.each(results, function(index, winery){
 
 		entry = generateEntry(winery);
-		var element = document.getElementById("results");
+		var element = document.getElementById("result-container");
 		element.appendChild(entry);
 	});
 	console.log("entries generated");
@@ -218,17 +218,18 @@ function generateEntries(results){
 }
 
 function paginate(results, itemsPerPage){
-	console.log(" beginning paginate")
+	console.log("beginning paginate")
 	// generates entries.
 	// return pages: array where the ith item is the listings
-	$( "#results").html('');
-	if ($("#countrySelector").val() == "All"){
+	$( "#result-container").html('');
+	/*if ($("#countrySelector").val() == "All"){
 		results = wineries;
-	}
+	}*/
 	var pages = [];
 	var page = [];
 	var itemNum = 1;
 
+	console.log("results: " + results.length)
 	$.each(results, function(index, winery){
 		item = winery;
 		// create element
@@ -254,7 +255,7 @@ function paginate(results, itemsPerPage){
 	});
 	console.log("completed pages: " + pages.length)
 	// initialize to first page
-	var element = document.getElementById("results");
+	var element = document.getElementById("result-container");
 	$.each(pages[0], function(index, item){
 		element.appendChild(item);
 	});
@@ -298,12 +299,12 @@ function createPagination(numPages){
 
 function goToPage(pageNum){
 	// pageNum: page to go to
-	// updates results div to entries on page pageNum of pages
+	// updates result-container div to entries on page pageNum of pages
 	// updates pagination bars to reflect new page location
 
 	console.log("going to page " + pageNum)
-	$( "#results").html('');
-	var element = document.getElementById("results");
+	$( "#result-container").html('');
+	var element = document.getElementById("result-container");
 
 	// update entries
 	$.each(pages[pageNum-1], function(index, entry){
@@ -337,4 +338,60 @@ function goToPage(pageNum){
 }
 
 
+function tidyString(inputString){
+/*
+	inputString: a string (user input)
+	returns: inputString converted to lowercase with all accents and punctuation removed
+*/
+	// convert to lowercase
+	var tidied = inputString.toLowerCase();
+	// remove punctuation
+	//console.log("before punctuation removal: " + tidied)
+	tidied = tidied.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()\s’\u0308’\'']/g,"");
+	//console.log("after punctuation removal: " + tidied)
+	// remove accents
+	tidied = tidied.replace(/\u00E9/, "e");
+	tidied = tidied.replace(/\u00E2/, "a");
+	tidied = tidied.replace(/\u00E1/, "a");
+	tidied = tidied.replace(/\u00F6/, "o");
+
+    return tidied; 
+}
+
+function getMatches(results, inputString){
+/* 
+    results: a list of results (from json) narrowed by region
+    inputString: user input (from search)
+    returns: list of results, all of whose names contain a reasonable variant of inputString
+    Given list of results narrowed by selectors, returns only results whose names contain inputString
+*/
+    matches = [];
+    var tidyInput = tidyString(inputString);
+    console.log('in matches. initial results: ' + results.length)
+    $.each(results, function(index, winery){
+	    //console.log("winery: " + winery.name)
+	    var tidyName = tidyString(winery.name);
+	    //console.log("tidied winery: " + tidyName)
+	    if (tidyName.indexOf(tidyInput) > -1 ){
+	    	console.log('found a match')
+	        matches.push(winery);
+	    }
+    });
+    console.log('matches: ' + matches.length)
+    return matches;
+}
+
+function onSubmit(results) {
+	var inputString = $('#name-input').val();
+	console.log('beginning onSubmit. inputString: ' + inputString)
+	console.log("results: " + results.length)
+	if (inputString != ''){
+		matches = getMatches(results, inputString)
+	}
+	else {
+		matches = results;
+	}
+	pages = paginate(matches, itemsPerPage);
+	return pages, results;
+}
 

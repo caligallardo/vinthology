@@ -7,28 +7,26 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/bannerStyle.css">
 	<link rel="stylesheet" type="text/css" href="styles/portfolioStyle.css">
-	<script type="text/javascript" src="scripts/selector2.js"></script>
+	<script type="text/javascript" src="selector.js"></script>
 	<script type="text/javascript">
-	// wineries: all wineries
-	// results: wineries refined by filter settings
-	// countryWineries: all wineries in selected country
-
-	var wineries;
-	var countryWineries;
-	var pages;
-	var currentPage;
-
-$(window).bind("load", function() {
-   itemsPerPage = 10;
-         $.getJSON( "https://api.myjson.com/bins/14wcq1", function(results){
-			wineries = results;
-			//generateEntries(results);
-			pages = paginate(results, itemsPerPage);
-
-         	console.log("Loaded winery list into wineries. Size:" + wineries.length);
-			});
-});
-
+         var wineries;
+         var dataURL = "https://api.myjson.com/bins/18ddbz";
+         var countryWineries;
+         var results;
+		$.ajax({
+            type: 'GET',
+            url: dataURL,
+            async: false,
+            contentType: "application/json",
+            dataType: 'json',
+            success: function (json) {
+                wineries = json;
+            },
+            error: function (e) {
+                alert("error");
+            }
+        });
+         console.log("Loaded winery list into wineries. Size:" + wineries.length);
 	</script>
 </head>
 <body>
@@ -46,9 +44,6 @@ $(window).bind("load", function() {
 			<li>
 				<a href="contact1.html">Contact</a>
 			</li>
-			<li>
-				<a href="news.html">News</a>
-			</li>
 		</ul>
 	</header>
 	<div class="page-container">
@@ -64,10 +59,6 @@ $(window).bind("load", function() {
 		<div class="portfolio-page-container">
 		<div class="title">
 			Search Our Wines
-		</div>
-		<div class="pagination-box">
-			<ol class="pagination" id="pagination1">
-			</ol>
 		</div>
 		<div class="page-break"></div>
 		<div class="content">
@@ -111,21 +102,26 @@ $(window).bind("load", function() {
 					});
 				</script>
 
-				<button type="button" onclick="
-				//generateEntries(results)
-				pages = paginate(results, itemsPerPage)">Search</button>
+				<button type="button" onclick="generateEntries(results)">Search</button>
 
 			</div>
+
+			<script type="text/javascript">
+				/*var results;
+				$.getJSON( "https://api.myjson.com/bins/8ge9j", function(allWineries) {
+  					results = allWineries;
+  					return false;
+				})
+				return results;*/
+				
+			</script>
 
 			<div id="results">
 
 			</div>
+			<script type="text/javascript">generateEntries(wineries);</script> 
+		</div>
 
-		</div>
-		<div class="pagination-box">
-			<ol class="pagination" id="pagination2">
-			</ol>
-		</div>
 		</div>
 	</div>
 
@@ -144,7 +140,7 @@ $(window).bind("load", function() {
 					·
 					<a href="aboutus.html">About</a>
 					·
-					<a href="">Portfolio</a>
+					<a href="#">Portfolio</a>
 					·
 					<a href="contact1.html">Contact</a>
 				</p>

@@ -96,6 +96,7 @@ a {
 	height: 80px;
 	content: "";
 	display: block;
+	overflow: hidden;
 }
 
 
@@ -106,13 +107,13 @@ a {
 }
 
 p {
-	font-size: 24px;
+	font-size: 22px;
 	color: gray;
 	display: inline;
 }
 
 .section {
-	padding: 50px 15% 40px 15%;
+	margin: 50px 15% 40px 15%;
 	text-align: center;
 }
 
@@ -128,6 +129,10 @@ p {
 	display: table;
 }
 
+.section p {
+	color: #444444
+}
+
 .italicized-word {
 	display: inline;
 	font-style: italic;
@@ -136,7 +141,7 @@ p {
 .section-break {
 	margin-left: 10%;
 	margin-right: 10%;
-	border: solid gray 2px; 
+	border: solid #303030 1px; 
 	content: " ";
 }
 
@@ -238,4 +243,10 @@ p {
 
 p {
 	width: 100%;
+}
+
+.mid-section-break {
+	content: "";
+	display: block;
+	height: 20px;
 }

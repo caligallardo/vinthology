@@ -7,26 +7,30 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/bannerStyle.css">
 	<link rel="stylesheet" type="text/css" href="styles/portfolioStyle.css">
-	<script type="text/javascript" src="selector.js"></script>
+	<script type="text/javascript" src="scripts/selector2.js"></script>
 	<script type="text/javascript">
-         var wineries;
-         var dataURL = "https://api.myjson.com/bins/18ddbz";
-         var countryWineries;
-         var results;
-		$.ajax({
-            type: 'GET',
-            url: dataURL,
-            async: false,
-            contentType: "application/json",
-            dataType: 'json',
-            success: function (json) {
-                wineries = json;
-            },
-            error: function (e) {
-                alert("error");
-            }
-        });
-         console.log("Loaded winery list into wineries. Size:" + wineries.length);
+	// wineries: all wineries
+	// results: wineries refined by filter settings
+	// countryWineries: all wineries in selected country
+
+	var wineries;
+	var countryWineries;
+	var pages;
+	var currentPage;
+	var searchResults;
+
+$(window).bind("load", function() {
+   itemsPerPage = 10;
+         $.getJSON( "https://api.myjson.com/bins/14wcq1", function(results){
+			wineries = results;
+			searchResults = results;
+			//generateEntries(results);
+			pages = paginate(results, itemsPerPage);
+
+         	console.log("Loaded winery list into wineries. Size:" + wineries.length);
+			});
+});
+
 	</script>
 </head>
 <body>
@@ -42,15 +46,18 @@
 				<a href="aboutus.html">About</a>
 			</li>
 			<li>
-				<a href="contact1.html">Contact</a>
+				<a href="contact.html">Contact</a>
+			</li>
+			<li>
+				<a href="news.html">News</a>
 			</li>
 		</ul>
 	</header>
 	<div class="page-container">
 		<div class="banner">
 			<div class="banner-image">
-				<div class="image-wrapper">
-					<img src="images/portfolioHeader.jpg" width="100%">
+				<div class="image-wrapper" style="filter: brightness(60%)">
+					<img src="images/portfolioHeader.jpg" width="100%" >
 				</div>
 			<div class="banner-text">Portfolio</div>
 			</div>
@@ -59,6 +66,10 @@
 		<div class="portfolio-page-container">
 		<div class="title">
 			Search Our Wines
+		</div>
+		<div class="pagination-box">
+			<ol class="pagination" id="pagination1">
+			</ol>
 		</div>
 		<div class="page-break"></div>
 		<div class="content">
@@ -81,6 +92,9 @@
 				  <option selected="selected" value="All">All</option>
 				</select>
 
+				<h3>Search by Name</h3>
+				<input type="text" id="name-input" value='' onclick="this.select();">
+
 				<script type="text/javascript">
 					$( "#countrySelector" ).change(function() {
 						console.log("country has been selected:" + this.value);
@@ -91,37 +105,35 @@
 					  	// enable region selector if for specific country. disable if for All
 					  	if (this.value == "All"){regionSelector.disabled = true;}
 					  	else {regionSelector.disabled = false;}
-					  	results = countryWineries;
+					  	searchResults = countryWineries;
 					});
 				</script>
 
 				<script type="text/javascript">
 					$( "#regionSelector" ).change(function() {
 					  	regionWineries = filterByRegion(this.value, countryWineries);
-					  	results = regionWineries;
+					  	searchResults = regionWineries;
 					});
 				</script>
 
-				<button type="button" onclick="generateEntries(results)">Search</button>
+				<button type="button" onclick="var inputString = $('#name-input').val();
+				if (inputString != ''){
+					searchMatches = getMatches(searchResults, inputString)
+				}
+				else { searchMatches = searchResults;}
+				pages = paginate(searchMatches, itemsPerPage);">Search</button>
 
 			</div>
 
-			<script type="text/javascript">
-				/*var results;
-				$.getJSON( "https://api.myjson.com/bins/8ge9j", function(allWineries) {
-  					results = allWineries;
-  					return false;
-				})
-				return results;*/
-				
-			</script>
-
-			<div id="results">
+			<div id="result-container">
 
 			</div>
-			<script type="text/javascript">generateEntries(wineries);</script> 
+
 		</div>
-
+		<div class="pagination-box">
+			<ol class="pagination" id="pagination2">
+			</ol>
+		</div>
 		</div>
 	</div>
 
@@ -140,9 +152,9 @@
 					·
 					<a href="aboutus.html">About</a>
 					·
-					<a href="#">Portfolio</a>
+					<a href="">Portfolio</a>
 					·
-					<a href="contact1.html">Contact</a>
+					<a href="contact.html">Contact</a>
 				</p>
 
 				<p>Vinthology &copy; 2017</p>

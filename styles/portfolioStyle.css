@@ -47,21 +47,21 @@ h2 {
 
 #search-sidebar {
 	width: 160px;
-	height: 250px;
+	height: 350px;
 	float: left;
 	margin: 10px;
 	display: inline-block;
 }
 
-#results {
+#result-container {
 	float: right;
 	display: inline-block;
 	width: 75%;
 	margin-right: 
 }
 
-@media screen and (max-width: 875px){
-	#results {
+@media screen and (max-width: 880px){
+	#result-container {
 		display: block;
 		width: 100%;
 	}
@@ -127,23 +127,35 @@ div .sitelink {
 	color: #710400;
 }
 
-select {
-	background: white;
-	border: solid darkgoldenrod 1px;
+select, input {
+
+	border: solid 1px;
 	font-size: 14px;
+}
+
+select {
 	height: 29px;
+	background: white;
+	border-color: darkgoldenrod;
 	padding: 5px; /* If you add too much padding here, the options won't show in IE */
-	width: 150px;
+	width: 100%
+}
+
+input {
+	border-radius: 5px;
+	border-color: gray;
+	width: 98%;
+	height: 26px;
 }
 
 button {
 	display: block;
-	margin: 25px;
+	margin: 30px;
 	margin-left: 0;
 	background-color: darkgoldenrod;
 	border: none;
 	font-size: 14px;
-	padding: 5px;
+	padding: 7px;
 }
 
 h3 {
